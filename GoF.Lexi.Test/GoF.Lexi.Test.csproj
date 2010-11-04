@@ -45,10 +45,11 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactoryTest.cs" />
     <Compile Include="DecoratorTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StrategyTest.cs" />
-    <Compile Include="StructureTest.cs" />
+    <Compile Include="CompositeTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Application\GoF.Lexi.Application.csproj">
