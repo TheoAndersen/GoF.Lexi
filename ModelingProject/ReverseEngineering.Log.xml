@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Users/Anderthe/AppData/Local/Microsoft/VisualStudio/10.0/Extensions/Microsoft/Visualization and Modeling Feature Pack/1.0/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log">
+  <Message Timestamp="2010-11-03T16:12:53" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: '6061c59d-a7fe-4efd-a1f9-dc50fba2bec4' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF' -  (Package)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi' -  (Package)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application' -  (Package)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Circle' -  (Class)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Circle::Circle' -  (Operation)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Circle::Draw' -  (Operation)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::CurlyBracketsDecorator' -  (Class)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::CurlyBracketsDecorator::CurlyBracketsDecorator' -  (Operation)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::CurlyBracketsDecorator::CurlyBracketsDecorator::component' -  (Parameter)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::CurlyBracketsDecorator::Draw' -  (Operation)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Decorator' -  (Class)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Decorator::component' -  (Property)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Decorator::Decorator' -  (Operation)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Decorator::Decorator::component' -  (Parameter)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Decorator::Draw' -  (Operation)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Glyph' -  (Class)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Glyph::Draw' -  (Operation)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Glyph::Glyph' -  (Operation)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Glyph::Insert' -  (Operation)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Glyph::Insert::glyph' -  (Parameter)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Rectangle' -  (Class)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Rectangle::Draw' -  (Operation)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Rectangle::Rectangle' -  (Operation)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Row' -  (Class)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Row::children' -  (Property)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Row::Draw' -  (Operation)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Row::Insert' -  (Operation)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Row::Insert::glyph' -  (Parameter)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Row::Row' -  (Operation)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Row::Row::strategy' -  (Parameter)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Row::strategy' -  (Property)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::SpacesStrategy' -  (Class)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::SpacesStrategy::Compose' -  (Operation)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::SpacesStrategy::Compose::input' -  (Parameter)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::SpacesStrategy::SpacesStrategy' -  (Operation)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::SquareBracketsStrategy' -  (Class)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::SquareBracketsStrategy::Compose' -  (Operation)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::SquareBracketsStrategy::Compose::input' -  (Parameter)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::SquareBracketsStrategy::SquareBracketsStrategy' -  (Operation)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Strategy' -  (Interface)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Strategy::Compose' -  (Operation)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::GoF::Lexi::Application::Strategy::Compose::input' -  (Parameter)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System' -  (Package)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Collections' -  (Package)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Collections::Generic' -  (Package)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Collections::Generic::List' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Collections::Generic::List&lt;Glyph&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::GoF::Lexi::Application::Rectangle to ModelingProject::GoF::Lexi::Application::Glyph (Generalization)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::GoF::Lexi::Application::Row to ModelingProject::GoF::Lexi::Application::Glyph (Generalization)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::GoF::Lexi::Application::SpacesStrategy to ModelingProject::GoF::Lexi::Application::Strategy (InterfaceRealization)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::GoF::Lexi::Application::SquareBracketsStrategy to ModelingProject::GoF::Lexi::Application::Strategy (InterfaceRealization)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::GoF::Lexi::Application::Circle to ModelingProject::GoF::Lexi::Application::Glyph (Generalization)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::GoF::Lexi::Application::CurlyBracketsDecorator to ModelingProject::GoF::Lexi::Application::Decorator (Generalization)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::GoF::Lexi::Application::Decorator to ModelingProject::GoF::Lexi::Application::Glyph (Generalization)" />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="High" Text="(9) type(s) fully reverse engineered." />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="High" Text="(2) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2010-11-03T16:12:55" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

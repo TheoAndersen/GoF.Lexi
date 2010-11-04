@@ -1,0 +1,1795 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="d6b7de2d-bf4c-46f6-b232-b6de38ef3d28" name="ClassDiagram" linkedPackageId="0cc71464-8764-4afd-8364-9fc0343b3406" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="22fe7285-801d-4020-b187-2eb2798f9e17">
+      <profileInstance Id="a03398bd-9a98-415a-99da-44ad64cfe48b" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="a6d00b08-b5eb-4924-b465-4c660bb0b3d6">
+      <profileInstance Id="bc89a7e1-a29d-4094-9440-4176ecefc0be" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="7c63b400-3f40-41c9-aca3-a63bcd0edc0a">
+      <profileInstance Id="959f7082-a292-4e3e-9f70-886a663106f1" name="CSharpProfile">
+        <elementDefinition Id="0cf8b61f-a950-423f-a0a6-ce4cc591835d" />
+      </profileInstance>
+      <elementDefinition Id="b78e5dfd-f8b5-4943-beb7-6709e50f1a3f" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="78bb3369-a9c6-40d0-816c-e916f09fd94c" name="Rectangle" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="483fdea9-cc1c-44b9-95c3-041d68dfa38b" handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Rectangle" tag="ViewCode">
+            <elementDefinition Id="5a76e4e7-941a-4007-93dd-c66d7d6f375c" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="637ea018-5112-4597-9dea-69b2f312e28a" name="class" profile="CSharpProfile">
+            <elementDefinition Id="e94f7ccc-e887-494f-87b1-21a59a3a08a5" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="a1b3dce0-7016-4bd5-a72c-2aadef2287dd">
+                <propertyInstance Id="f11a0dd0-8206-4e1d-8236-ba3f31b7e2d8" name="ClrAttributes">
+                  <elementDefinition Id="66db48f1-7b80-40e2-8dbd-f541535e884e" />
+                </propertyInstance>
+                <elementDefinition Id="39655e9e-2efd-41f8-b707-71e25d5067a0" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="c8c8e705-78dd-4b7c-95c1-c3c964ceef10">
+                <propertyInstance Id="8b20a1ac-8d8f-4acb-87c9-dd50e3e14ace" name="IsPartial" value="false">
+                  <elementDefinition Id="ad478e92-c06d-4ab7-b1cc-b93125801081" />
+                </propertyInstance>
+                <elementDefinition Id="38d2f745-857a-480b-864c-66e5ad1a6d18" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="de3aa46c-5a06-4fe3-9593-04b9fcaf1615">
+                <propertyInstance Id="e37043ef-9df1-4ce3-be82-7796e0ce81fa" name="IsStatic" value="False">
+                  <elementDefinition Id="0023e9e3-5351-4f48-8bef-8dc09a0a42e8" />
+                </propertyInstance>
+                <elementDefinition Id="ffd7d677-2302-42bc-95f0-09fc454f2e56" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="779b0e40-65e0-48c9-b001-ecbd8217908e">
+                <propertyInstance Id="1b65e835-bb3c-4b5a-a37e-fb66aa52bcd6" name="IsUnsafe" value="false">
+                  <elementDefinition Id="8b2e9688-6f52-4eee-ae2f-41802c481368" />
+                </propertyInstance>
+                <elementDefinition Id="040e6902-6994-495c-b0de-5b0d75e88c4a" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="28d3a8a1-4049-44d6-baf0-23e8f98a16b3">
+                <propertyInstance Id="8580038b-fca2-4d67-8d0e-93ff79cfedc1" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="1960c8f6-0f12-4c6c-8867-3cbe77d111d3" />
+                </propertyInstance>
+                <elementDefinition Id="03251d96-3ad2-4bff-92b0-01677230e9d6" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="b2361f1a-eab0-45bc-9fbd-c019a9657946" />
+        <generalsInternal>
+          <generalization Id="85b7632a-04e5-4767-a005-511c2b442a90" isSubstitutable="false">
+            <classMoniker Id="298df600-61fb-4cd0-b4f6-af79126419fd" LastKnownName="Glyph" />
+            <elementDefinition Id="47759de7-c36a-411b-bbc8-f88659d21f7f" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="462865e1-9cce-4439-9c2f-61293c46d664" name="Draw" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="613d7029-e1d3-4dab-aa58-eb534c0cfd32" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Rectangle Member=Draw" tag="ViewCode">
+                <elementDefinition Id="ca4ace43-c9a3-4355-b056-360de9ae8730" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="736eb4b5-7fcf-45cb-9a8c-6f7493e0509d" name="method" profile="CSharpProfile">
+                <elementDefinition Id="0d4cee65-cb0d-4f4d-9ef0-d3c74294ae2e" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f2217aa5-7729-4507-b1b5-2ad3a1c63baa">
+                    <propertyInstance Id="c93ce4b8-ffae-4b58-82d9-8a65bd49a4b0" name="ClrAttributes">
+                      <elementDefinition Id="fd03630f-7a04-4a43-b244-b5737f26619e" />
+                    </propertyInstance>
+                    <elementDefinition Id="95285a00-55dc-4aec-a9ce-c3a43a2ca46e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="553df158-a601-4d78-b941-d427f7d28c50">
+                    <propertyInstance Id="5f50c638-2a3f-4316-8740-0a566de3e8f6" name="IsPartial" value="false">
+                      <elementDefinition Id="f9861176-e5bb-4139-b898-4b1f9ae47cef" />
+                    </propertyInstance>
+                    <elementDefinition Id="936a229b-414c-47bd-8dfa-5f2cdb6e1a60" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9bd3575a-a33f-470e-9fe3-d963ad92f884">
+                    <propertyInstance Id="1716898a-a614-4e48-ac06-e246d5b6c382" name="IsUnsafe" value="false">
+                      <elementDefinition Id="fc933311-e0e7-4d83-ba40-9fd86da0e3e3" />
+                    </propertyInstance>
+                    <elementDefinition Id="928d230c-76ec-4682-a34d-4cfde52ea539" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="84eb8409-7191-4fee-a23a-228f58862363">
+                    <propertyInstance Id="2a24de61-eca6-4f47-b8ea-92dd2c583fc6" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="3d64feeb-e035-4d64-9d61-a2a281e8f1a7" />
+                    </propertyInstance>
+                    <elementDefinition Id="196720fc-d47a-4a65-9cad-4b6557ac1d19" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a2591af3-eac0-45ac-9f63-ae6675c2873b">
+                    <propertyInstance Id="88cee393-d2f7-4452-931c-f90103f04c17" name="params" value="false">
+                      <elementDefinition Id="d4cb0d56-24fe-4eb6-beb3-4801d5d75053" />
+                    </propertyInstance>
+                    <elementDefinition Id="69b24e63-7789-4e6f-a46b-53a478df2e0b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="26f548cd-25c1-47ce-ba37-8c7154bc1c52" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="50dd07ee-fc32-49f2-a23e-102d87757451" direction="Return">
+                  <elementDefinition Id="4394e709-c6b7-49e7-9a92-2bd88e6ac0e1" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7bada574-045d-4f18-8214-4f1909e6890b" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="f6d53140-9cb8-42d5-8123-792bccbd7761" name="Rectangle" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="b14704ce-8893-48a8-b04e-acbc0565ddd3" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Rectangle Member=.ctor" tag="ViewCode">
+                <elementDefinition Id="5ef27b1d-a5e9-4a07-bd2a-e520fcf8b16f" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="c3172bbd-6e72-45e4-a6f1-355582ceb7ce" name="method" profile="CSharpProfile">
+                <elementDefinition Id="c131630f-2515-4b11-a6a7-482334a754a6" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="eaa371b3-d4ec-4672-b922-fe0106c5e735">
+                    <propertyInstance Id="13039cc3-d8ab-4d28-af47-db4dd06ba4cd" name="ClrAttributes">
+                      <elementDefinition Id="2286859c-bd81-444f-9484-873938ea4484" />
+                    </propertyInstance>
+                    <elementDefinition Id="5552e064-6196-448f-b089-dc588fc615fa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="bbabbed8-dacb-4432-a544-0cc0e265c414">
+                    <propertyInstance Id="2e9cd006-6643-44cf-9d7f-adc1b3424253" name="IsPartial" value="false">
+                      <elementDefinition Id="c9f0ee25-06cf-4e4a-a89e-538a41298a81" />
+                    </propertyInstance>
+                    <elementDefinition Id="ba635b55-4a5f-4045-b918-7221205d419e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="747f6f00-5125-427f-b765-0cc2f30c6252">
+                    <propertyInstance Id="5ef0f2d9-e1ea-4a9a-9f5b-44fdf4d6d13c" name="IsUnsafe" value="false">
+                      <elementDefinition Id="7fc5a94e-3d82-47ee-bc29-f67291aee436" />
+                    </propertyInstance>
+                    <elementDefinition Id="980aa4a2-a8b7-4102-b7cc-a881851b88ea" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d78f487c-513a-4c98-9bc9-ce03558c2a0e">
+                    <propertyInstance Id="39e67305-772d-41a9-b443-f81e579e8ea8" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="ad3e5816-9324-4a1f-ae43-0518048655e9" />
+                    </propertyInstance>
+                    <elementDefinition Id="51a217c0-4409-46f7-b420-5a198cbd49f3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d93aa2da-7e8c-4376-8055-206b32fa9e47">
+                    <propertyInstance Id="1bca79a5-990e-439d-8b99-2b3c66bdba21" name="params" value="false">
+                      <elementDefinition Id="e7c591a8-01e3-4201-8ed0-77651e6efa8e" />
+                    </propertyInstance>
+                    <elementDefinition Id="4bc03834-8eab-4953-9422-10e73bfe95a8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="62638ea3-2efe-4955-a48a-94811748989d" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="7bada574-045d-4f18-8214-4f1909e6890b" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="048b5f53-7504-42d3-a8f5-bbe2eaac3f2a" name="Row" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="91b62424-c457-4747-b967-aa112f7ce101" handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Row" tag="ViewCode">
+            <elementDefinition Id="016f8357-1121-407f-a1cd-8c8e6ad9f709" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="dd0c1f42-a824-4019-806e-441734c15c6e" name="class" profile="CSharpProfile">
+            <elementDefinition Id="7cf2ed23-0dfb-43ab-b5b5-fc3c508e348d" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="b72c0893-c525-4124-9368-0392842555fb">
+                <propertyInstance Id="15ba4848-821a-4068-bb3b-5978563bea2d" name="ClrAttributes">
+                  <elementDefinition Id="22961b0e-56d0-40f2-8f9f-496de900ba85" />
+                </propertyInstance>
+                <elementDefinition Id="aa6ae2c3-e80c-485b-a558-c7da4405481f" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="aea94321-5b0d-405e-b56d-9fd4df1f6213">
+                <propertyInstance Id="6fc332ed-5ae0-4abe-83ce-4a8db6f1da33" name="IsPartial" value="false">
+                  <elementDefinition Id="429c4077-1217-4d65-8b26-3f2757a92cb4" />
+                </propertyInstance>
+                <elementDefinition Id="e2b4de81-0923-4396-b5dc-1ce1f12b89be" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="2e29323c-4bcf-4eeb-a2d9-97400452a4ea">
+                <propertyInstance Id="18492929-751f-4c91-a99f-3dcf704f4053" name="IsStatic" value="False">
+                  <elementDefinition Id="61a67a4e-f808-45af-987d-ce6651d7adb6" />
+                </propertyInstance>
+                <elementDefinition Id="2bb33227-1e16-41ef-a038-412af479aea2" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="cd6ba795-dda4-488b-976d-1c9ce34280e7">
+                <propertyInstance Id="f5a9d94a-f64a-4fd0-95ff-dd678758d527" name="IsUnsafe" value="false">
+                  <elementDefinition Id="b2eefcc3-6ff4-48c3-9ba6-ef1087f286b1" />
+                </propertyInstance>
+                <elementDefinition Id="831c52de-ea45-42b0-8f68-75339fa6f8a8" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="85cb0579-6714-49b0-a8a0-c051ccc9d351">
+                <propertyInstance Id="b5789ccc-74d2-406f-90df-7ca90973e5c0" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="659c0a53-6c4e-48dd-8ca8-6bcc091b8830" />
+                </propertyInstance>
+                <elementDefinition Id="81ed446e-a1d3-40d4-bddf-2842858997a4" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="25fe202a-7a39-4133-897f-5adc09bc6c58" />
+        <generalsInternal>
+          <generalization Id="8c1e56cb-f887-4e85-a637-6707a568d3e3" isSubstitutable="false">
+            <classMoniker Id="298df600-61fb-4cd0-b4f6-af79126419fd" LastKnownName="Glyph" />
+            <elementDefinition Id="c68aee1c-4d67-4aed-9724-d2b6aad05195" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="d6735313-e578-4270-8786-3f5f04155f32" isDerived="false" sourceEndRoleName="Row" targetEndRoleName="Strategy" isLeaf="false" isAbstract="false">
+            <interfaceMoniker Id="c2974a24-24ef-4247-adcb-186fa0b1ca63" LastKnownName="Strategy" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c1cf71f5-63a5-4fe0-b9e8-74b39c7f1e8c" name="Row" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="92be99cb-41d1-4575-8763-6320bb738c6d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d0a85f37-03cf-48b9-8c55-c100f1f10b18" name="Strategy" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="ca515232-3523-4ebc-8a4c-766b43726c3b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c7b36758-1c63-4b03-8c6a-5ddf763bff75" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="8c722b4b-e63d-434f-8ea7-775e33e71133" name="children" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="72d520fc-c2b9-4fde-8783-6096a192f18e" handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Row Member=children" tag="ViewCode">
+                <elementDefinition Id="7fd421ed-63a3-4026-aea9-9433619e13a2" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="970262cc-cf19-4708-867e-b2fe084086bf" name="field" profile="CSharpProfile">
+                <elementDefinition Id="8f037121-01bf-47c8-997d-1d6cc7334bf6" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fc9c2356-ce41-4d43-a709-88b44598af5e">
+                    <propertyInstance Id="9a718cc9-c405-4778-bdb7-b645066701b5" name="ClrAttributes">
+                      <elementDefinition Id="0188cef2-f8cc-4e04-8cf9-067dbd0eca5d" />
+                    </propertyInstance>
+                    <elementDefinition Id="f34a7711-f8f7-4f97-abe5-5b8b58d5225c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="498cf8b9-4621-4286-83d1-bf93df36c634">
+                    <propertyInstance Id="88014cf5-76e6-40ed-a615-1abd4f77c9e6" name="IsConst" value="false">
+                      <elementDefinition Id="db6766ec-f413-4947-a57f-83dda5b75f11" />
+                    </propertyInstance>
+                    <elementDefinition Id="238771ad-5e39-4d16-9202-eefdedaba94b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="edcbe5a8-a0f4-4376-9723-ab9097a5cbef">
+                    <propertyInstance Id="70a3de99-1eff-484b-a66d-6f4b5e1e2c6f" name="IsNullable" value="false">
+                      <elementDefinition Id="699db975-d704-44c9-999f-6018baf104ca" />
+                    </propertyInstance>
+                    <elementDefinition Id="78a9e4f6-2101-4403-a555-7c1516500200" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8d653781-cd71-4208-8a55-91fc41e8d943">
+                    <propertyInstance Id="b5b17679-72a1-4cd0-9377-3d51514195b7" name="IsVolatile" value="false">
+                      <elementDefinition Id="33755eaa-edc9-4b38-8b19-f73605019976" />
+                    </propertyInstance>
+                    <elementDefinition Id="87aeec5e-c213-407f-ba35-674746026d99" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="82c58595-9365-4257-8472-166e1a36a6ab">
+                    <propertyInstance Id="afde1f0f-30a5-4a46-9417-2cf9e738aaaf" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="2e0667f3-aac2-4f7d-8a66-f55491462123" />
+                    </propertyInstance>
+                    <elementDefinition Id="a4e4380c-4864-4e7d-9d5f-07c31f6de399" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="4f71daac-a459-4898-a6a7-04bf00a09805" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="01631a1b-c7c3-442b-88f4-75dfb2d7fc19" LastKnownName="List&lt;Glyph&gt;" />
+            </type_NamedElement>
+          </property>
+          <property Id="fe6dc0ae-5f26-44ee-a91b-9ff8bb56971c" name="strategy" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="42d6efcb-c0df-4a3a-961e-e8699bcff0e5" handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Row Member=strategy" tag="ViewCode">
+                <elementDefinition Id="9655b4d5-d47e-4e14-bf6a-7b060a1406be" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="bda17f75-1be5-41c9-9097-84ab18e2a96e" name="field" profile="CSharpProfile">
+                <elementDefinition Id="73d0541e-a4e5-4dd1-af16-3b9dc44340d8" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5caf99bf-e9a0-4d8f-b84f-5b4f68805b16">
+                    <propertyInstance Id="750128bf-3c85-4fc6-bd0f-7d97dc574fc2" name="ClrAttributes">
+                      <elementDefinition Id="5ab9abca-3c1f-4637-88ce-58abcb8f954a" />
+                    </propertyInstance>
+                    <elementDefinition Id="638f4508-06ad-47ba-9e70-ff325f403cb5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="eff57102-f31d-46f6-8faf-c77566d08408">
+                    <propertyInstance Id="a06337e7-7e27-4b4b-99a0-9ef52e7e111f" name="IsConst" value="false">
+                      <elementDefinition Id="939ee0e2-4e64-446d-859b-e73a06d65e58" />
+                    </propertyInstance>
+                    <elementDefinition Id="51f31423-faa0-4bd1-9068-f8ba88021def" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="90ac3462-669d-4a93-a027-cae9eb05cbdb">
+                    <propertyInstance Id="0ae541b4-2841-44d2-b5aa-3b46f283712f" name="IsNullable" value="false">
+                      <elementDefinition Id="f3d148df-d3be-4f24-9734-c9fb80f47b01" />
+                    </propertyInstance>
+                    <elementDefinition Id="9b2180da-7adf-4f04-b673-f055e42ca773" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d1f42f8f-ee59-4471-a3c9-c4b0c9010125">
+                    <propertyInstance Id="5a13d97c-5752-4e3a-b8bb-931a9e21d125" name="IsVolatile" value="false">
+                      <elementDefinition Id="875dbec6-4688-4a2c-82aa-4c5a02f7b9b0" />
+                    </propertyInstance>
+                    <elementDefinition Id="f46ff168-e259-4448-92cc-c6c112c61032" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="268b1aea-f185-4e23-80f9-7659229bbf2c">
+                    <propertyInstance Id="7e1bbc3d-892f-4588-a8ae-92586f3d892a" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="5f88bd1a-b4a8-4206-aaf7-9cfb8aab15f1" />
+                    </propertyInstance>
+                    <elementDefinition Id="113393cb-f36f-4f2c-9d80-7dcde457e22d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="dbe67a3b-6fc8-4963-a0d2-017ac53742e1" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="2c551834-97b0-45fc-81aa-ee0276aa7621" LastKnownName="Strategy" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="8519fcf8-6754-4750-875d-18f19177b8d2" name="Row" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="54184030-dbf6-4f48-955b-ee1312aca0e0" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Row Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Strategy)])" tag="ViewCode">
+                <elementDefinition Id="afac1e32-4f80-45e7-b1c7-9da3a4d17bd2" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="100d231e-6daf-4d78-9051-b5420657fd16" name="method" profile="CSharpProfile">
+                <elementDefinition Id="47defca0-b4a5-4d8a-88f3-335420f00f3b" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="05100db1-5d51-4bf0-b00d-859ef2a8c88d">
+                    <propertyInstance Id="c54a7ff7-154c-42bf-88cf-d5e2f6dbb7d1" name="ClrAttributes">
+                      <elementDefinition Id="56e2dd7d-ef9b-4f44-9fd1-43571dae5e69" />
+                    </propertyInstance>
+                    <elementDefinition Id="132af533-5c03-47ee-98ee-d3aa2a8e4888" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e5e10043-651d-4464-8a19-ce839944bbdf">
+                    <propertyInstance Id="01a264fd-b58b-4b8c-aa1e-a39e1701028d" name="IsPartial" value="false">
+                      <elementDefinition Id="06418de9-9494-4c9d-8a2b-04ddc23bbd3e" />
+                    </propertyInstance>
+                    <elementDefinition Id="b986f97a-4938-493b-84ef-9ef03216a22b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2bee0d0d-c673-4c57-8287-cc14c976e90a">
+                    <propertyInstance Id="1382330e-2812-464a-a1fd-4bbbbce7845c" name="IsUnsafe" value="false">
+                      <elementDefinition Id="babf4e67-d529-4152-aa18-3434811b159b" />
+                    </propertyInstance>
+                    <elementDefinition Id="89970221-026b-4967-9081-9d0b9f8fb902" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="56abb7df-88eb-4171-8f97-d61b7d442524">
+                    <propertyInstance Id="3c322424-0ecf-4c69-af29-abdd8935fa89" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="8dd556ab-d79f-4c58-9819-29615b197658" />
+                    </propertyInstance>
+                    <elementDefinition Id="a3530c5b-2e81-4a81-943d-6ad801596791" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e9c8b5d7-915f-4e6f-9abb-06749d49dde6">
+                    <propertyInstance Id="07ccd572-765f-4f1e-b358-0ec6f73457d9" name="params" value="false">
+                      <elementDefinition Id="fcacefb6-bc25-4323-ac02-e68a10e7d544" />
+                    </propertyInstance>
+                    <elementDefinition Id="c67583f2-5f4e-45d4-a684-1490f44b57e4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="91d86e4a-4c7a-4be0-b429-e1aa65afbc6b" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a2663b47-f8d1-4e86-8acf-1a1c883d0e58" name="strategy" direction="In">
+                  <referencesInternal>
+                    <reference Id="9d57d297-ec81-45e0-b69c-a254c3a2131b" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Row Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Strategy)]) ParameterIdentifier=strategy" tag="ViewCode">
+                      <elementDefinition Id="790edbea-8f3d-48b8-a3d2-e4d9c13584df" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="ab574233-3618-4f8f-aaa3-8c4395d61819" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2c551834-97b0-45fc-81aa-ee0276aa7621" LastKnownName="Strategy" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="7f624c09-f9c0-4b04-b6cb-82858b26e0ed" name="Draw" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="92a76044-bb16-47c1-bea0-4beb16fe0d35" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Row Member=Draw" tag="ViewCode">
+                <elementDefinition Id="60d8894b-c070-443e-bf93-bc72ea8fc4c0" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="a5ddcb0c-4572-4121-8e24-e96f23fbe508" name="method" profile="CSharpProfile">
+                <elementDefinition Id="be255f0e-98b2-4101-a2f3-6c4649decfd3" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f738c323-e0f6-4c5a-bb47-4d117d177bf7">
+                    <propertyInstance Id="7655bd7f-0e44-43bd-8b0a-e8820728c3f9" name="ClrAttributes">
+                      <elementDefinition Id="c7116a9f-7961-4d00-8864-4216dd5a8fe0" />
+                    </propertyInstance>
+                    <elementDefinition Id="ba00d029-90f0-4d14-a3c4-43081dc156a0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3fb14457-b73a-405f-be48-12163a81388a">
+                    <propertyInstance Id="ad36df5d-721a-4398-9e3a-b80fa26fb3e7" name="IsPartial" value="false">
+                      <elementDefinition Id="c1d43022-5a19-48fa-a654-ed2e252d115f" />
+                    </propertyInstance>
+                    <elementDefinition Id="724d51b2-c804-4339-b3c8-6f6ada54a7db" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="40590ca9-3f3e-4f16-a32e-31f1f397718c">
+                    <propertyInstance Id="fa689efc-ea29-47ef-8961-9e6ad02b8bef" name="IsUnsafe" value="false">
+                      <elementDefinition Id="0a19043e-7e9c-4253-b621-f7630592fda5" />
+                    </propertyInstance>
+                    <elementDefinition Id="bdc9932d-2d8e-4d44-be4c-e1ed5bdd55eb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fc5d2ef0-440b-4cff-b07e-704358b13864">
+                    <propertyInstance Id="c584ea83-f14b-42fd-b3ff-4a89fa1d8449" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="8dd2b314-2993-4a67-8ea8-dba3b68b401b" />
+                    </propertyInstance>
+                    <elementDefinition Id="3d3315f6-70d2-4d37-b0e1-bd4757113f60" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c5cd46d1-a7a5-4d2e-bc93-775a5e6e43f7">
+                    <propertyInstance Id="6c1b37ee-5619-4594-8eef-9b0891e63440" name="params" value="false">
+                      <elementDefinition Id="d95c1c18-09da-4fe6-93b0-de4719961859" />
+                    </propertyInstance>
+                    <elementDefinition Id="1d18eb83-07b5-4d3e-9695-5411ec1c5ee2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="048c5daf-852a-4483-a94b-1baba8607efe" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ccf438b8-b818-45b5-8d1f-18f26add4ac4" direction="Return">
+                  <elementDefinition Id="cdc1bac6-a3fe-4b26-b42d-528e73da6c44" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7bada574-045d-4f18-8214-4f1909e6890b" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="bcf8fe1d-bbdf-4904-bb02-d85373fce807" name="Insert" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="b83f11dc-54a0-4ea4-bd67-18c73b6174e4" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Row Member=(Name=Insert OverloadingParameters=[(Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Glyph)])" tag="ViewCode">
+                <elementDefinition Id="9a28f2a0-b860-4dba-91b2-1ecafc2e437d" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="937abf97-d26a-4871-ac8b-0743a7e656ff" name="method" profile="CSharpProfile">
+                <elementDefinition Id="26244cad-30b9-4a6b-aa89-d75fc01f0026" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="517f2ff8-6929-44f7-ba8e-80c8980be750">
+                    <propertyInstance Id="bb6c54ad-ef22-435e-86c6-4ee9ab8e6efd" name="ClrAttributes">
+                      <elementDefinition Id="8dc83670-a48b-48b5-b370-a819c9d2079e" />
+                    </propertyInstance>
+                    <elementDefinition Id="8924be5e-2bad-4f5c-9a06-97d032df3925" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2b2c9dbc-d1d6-4c26-b752-555e899f2a96">
+                    <propertyInstance Id="f14d0230-5328-4bea-a6f8-cb6d93376b2b" name="IsPartial" value="false">
+                      <elementDefinition Id="8dc69a6a-9e75-4099-88cc-8e1bb35ebddd" />
+                    </propertyInstance>
+                    <elementDefinition Id="3d62d054-e918-4c7c-bf73-d99cdaf8889f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="582a2691-067b-42f2-a91a-dc1eac08c37b">
+                    <propertyInstance Id="1218e029-e881-48ed-b9c4-9f31d5f7ee7d" name="IsUnsafe" value="false">
+                      <elementDefinition Id="bf0d1d7e-0dda-4e79-86e0-bf0db7b1a015" />
+                    </propertyInstance>
+                    <elementDefinition Id="1788a757-d506-4d91-adc6-148d89cecb0b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="59c2189f-a9d5-47ab-84db-74f5ad477477">
+                    <propertyInstance Id="9749e916-29ab-42ec-af6b-079d622f4777" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="f9d1cee1-d674-4dd7-a1b7-f44796e3f6c6" />
+                    </propertyInstance>
+                    <elementDefinition Id="3f8d7a54-5c69-4b60-a550-b9d952f6d79e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3e307de2-9ed0-44a3-846a-26fb332d6b1b">
+                    <propertyInstance Id="4ba87901-ce85-41c6-b6ee-929ab17ec9bd" name="params" value="false">
+                      <elementDefinition Id="248f2348-51b6-4b71-b196-564148f26cea" />
+                    </propertyInstance>
+                    <elementDefinition Id="4adf77fa-9be1-40ab-9e07-03faec7d12ee" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="8c389370-b21a-4eb1-b237-b9c32940ee78" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3431439e-9a37-490a-aba5-67d316d7dc9f" name="glyph" direction="In">
+                  <referencesInternal>
+                    <reference Id="ca14231d-a642-434b-b5ce-47bb342a7cc5" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Row Member=(Name=Insert OverloadingParameters=[(Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Glyph)]) ParameterIdentifier=glyph" tag="ViewCode">
+                      <elementDefinition Id="51d085d9-6b55-4b27-9aa9-78dc0559472f" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="3ca957da-3944-4b16-91ea-f05f208d14e1" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5e35fb58-cb27-41d1-94b5-b31ecc88d0e3" LastKnownName="Glyph" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="7bfbbc37-cad7-4fa8-a583-5170cb9ea3d3" name="Row" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="b1bb065c-64f8-42b4-a101-3161999b1c69" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Row Member=.ctor" tag="ViewCode">
+                <elementDefinition Id="7c258416-81b0-4926-8ea4-0d20818f5b13" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="c5d4c4f3-6065-4654-a42c-be3a1e63cb2c" name="method" profile="CSharpProfile">
+                <elementDefinition Id="d09b2773-3bc8-4671-8fa6-216a1666ae87" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b9d8b9f5-ce88-424d-9b9c-c575f58723bb">
+                    <propertyInstance Id="97fe7e1c-7ae6-412c-8424-0e2394e3f5d5" name="ClrAttributes">
+                      <elementDefinition Id="b5b1603f-84c1-4d04-8ef0-2d1a1e99fe01" />
+                    </propertyInstance>
+                    <elementDefinition Id="4346464a-89e6-403e-be92-8d62cfcd522a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1e81e235-1fe8-40f3-8343-99a75b045d89">
+                    <propertyInstance Id="a9bebb60-2822-4c12-9e94-308bb7035d1a" name="IsPartial" value="false">
+                      <elementDefinition Id="f87440b7-2c60-4f6e-892f-15a22e8959eb" />
+                    </propertyInstance>
+                    <elementDefinition Id="3c9ae35e-9bb3-4684-a866-bdf35644c8c7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="231f52a9-9d8d-428b-a58e-f8b27b08ce81">
+                    <propertyInstance Id="37dc1b62-d450-4326-b558-f65eef123ce4" name="IsUnsafe" value="false">
+                      <elementDefinition Id="03e6df02-8609-4225-9530-2c5a56b09e0a" />
+                    </propertyInstance>
+                    <elementDefinition Id="d60c4445-fe0a-46ca-bdfb-cb0f0685b245" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4c0991fa-a1b7-41f3-8803-8b1bed045790">
+                    <propertyInstance Id="278e295e-0639-4b23-be8a-929cde9233cd" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="d988211f-40d6-47f6-8270-df895ce62f6c" />
+                    </propertyInstance>
+                    <elementDefinition Id="8b710a97-50fe-4884-9479-dd6b71de0411" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="69ea9c00-d8e3-4f3c-a8d1-a744c8da551f">
+                    <propertyInstance Id="c27edebc-b140-49de-8d5b-26b67de075dd" name="params" value="false">
+                      <elementDefinition Id="ada2013b-48ca-4e17-a750-a3953573bc9f" />
+                    </propertyInstance>
+                    <elementDefinition Id="5b731e4a-b235-4f70-bd5e-b5ef22832605" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="e3acce35-ca3d-42a5-807d-b9fabcdc793e" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="01631a1b-c7c3-442b-88f4-75dfb2d7fc19" name="List&lt;Glyph&gt;" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject::System::Collections::Generic::List&lt;Glyph&gt;">
+        <elementDefinition Id="1f3944e9-723f-4112-97e6-b359875a4d28" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="2c551834-97b0-45fc-81aa-ee0276aa7621" name="Strategy" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject::GoF::Lexi::Application::Strategy">
+        <elementDefinition Id="86b4b6bb-2591-4c99-b451-25b534661ef0" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="5e35fb58-cb27-41d1-94b5-b31ecc88d0e3" name="Glyph" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject::GoF::Lexi::Application::Glyph">
+        <elementDefinition Id="2ff6f8c4-83c8-4345-b114-78a5e9edeeb9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="74572695-8af5-4f9e-8a3d-755b9214264a" name="SpacesStrategy" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="de46a080-bc96-4606-89f1-94e1fdbe0571" handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=SpacesStrategy" tag="ViewCode">
+            <elementDefinition Id="f46a4b0f-9643-42c7-bf51-4802429a6007" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="e592347a-97b6-45fb-81b0-460dfafdf883" name="class" profile="CSharpProfile">
+            <elementDefinition Id="a3eead0b-1d0f-42c8-8ed1-c86fe1518387" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="9070f4a7-0829-4b19-aebf-9ca9431f868f">
+                <propertyInstance Id="438b5fcb-1945-4e78-83af-6900f601b13e" name="ClrAttributes">
+                  <elementDefinition Id="9c73a14d-6eab-4414-bb52-c974d9f8035a" />
+                </propertyInstance>
+                <elementDefinition Id="ff954046-a97a-4e05-aaae-63ea7b248d39" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="897b7f22-e3a9-4b40-94c4-a638c5c96cda">
+                <propertyInstance Id="cef76187-e07a-44f0-a343-a0cac05a81eb" name="IsPartial" value="false">
+                  <elementDefinition Id="c43fd47d-0c91-4c32-90ff-383d34443f3f" />
+                </propertyInstance>
+                <elementDefinition Id="e654c1a9-ecb9-4558-8f7b-b9147fd156e7" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="66ca4d3b-a34d-4b58-919f-a6fcf65f4570">
+                <propertyInstance Id="81d71775-0d0b-4e54-8284-220e783fc070" name="IsStatic" value="False">
+                  <elementDefinition Id="81e0b7cd-b530-4e17-a765-6c16b212dd09" />
+                </propertyInstance>
+                <elementDefinition Id="371ec61f-faf4-444c-8e0b-a700090a4748" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="2488c0d9-61d2-4ef4-9240-b7fcbd7d8bb9">
+                <propertyInstance Id="c50c5471-5176-432b-8069-322f50a20494" name="IsUnsafe" value="false">
+                  <elementDefinition Id="9fff8e2a-f390-409d-9027-efdfa058f21e" />
+                </propertyInstance>
+                <elementDefinition Id="f2ba3bb2-cf96-428b-a80c-eb40391c98da" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="d44c4638-aa3f-427a-984f-c630d31c6e34">
+                <propertyInstance Id="098a66b0-0b9e-4efc-9605-a521dc0b1423" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="59f291e4-db82-4f8a-9a5a-1480aa67c42a" />
+                </propertyInstance>
+                <elementDefinition Id="da52652f-b21a-4726-a1fb-8297c6a8da21" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="a7d70357-4017-4ab0-a618-9d7240ffcb60" />
+        <suppliersInternal>
+          <interfaceRealization Id="a6d784ed-7954-4220-8d44-461513f00823">
+            <interfaceMoniker Id="c2974a24-24ef-4247-adcb-186fa0b1ca63" LastKnownName="Strategy" />
+            <elementDefinition Id="0b2ff47b-9620-4040-a0aa-35dfe47dcdb8" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="cd261131-b03c-4fc4-a29a-eed47382e633" name="Compose" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="d342933c-3f90-4b0a-9dab-8666f8b3600e" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=SpacesStrategy Member=(Name=Compose OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=String)])" tag="ViewCode">
+                <elementDefinition Id="c2def977-28aa-46da-b807-f24ae6b61523" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="95b5e7c5-02b3-4e58-99c4-b65ef2b68d53" name="method" profile="CSharpProfile">
+                <elementDefinition Id="bdb03e50-4579-4dc7-932a-b927c35931c2" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="20370985-e017-4773-9408-1745e95d2cc8">
+                    <propertyInstance Id="0cecbea1-064d-4d92-adad-6479fce058f3" name="ClrAttributes">
+                      <elementDefinition Id="09cf374b-5225-47d4-89a0-efaeda5140fc" />
+                    </propertyInstance>
+                    <elementDefinition Id="536e5aa4-a3c7-4d1c-b54f-9ff98e2c8fad" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="95311b32-cd7b-4be4-b31e-00d90f23786a">
+                    <propertyInstance Id="ee565c74-6325-4439-b0a4-0f1e7f68f648" name="IsPartial" value="false">
+                      <elementDefinition Id="3f37aadd-decd-4640-8d4b-f35e6a1a0bf0" />
+                    </propertyInstance>
+                    <elementDefinition Id="750ce942-8c53-4625-bf22-3450a69bece6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="17dc4b83-50fc-4778-8587-15bd41d75b7f">
+                    <propertyInstance Id="e505fb9d-c447-43ac-b8a0-d49d91f02716" name="IsUnsafe" value="false">
+                      <elementDefinition Id="b9c965f5-9093-438b-be26-f512034e9af9" />
+                    </propertyInstance>
+                    <elementDefinition Id="d24993fa-0dca-4ee5-a8c6-eeb94c9cf2a5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="44515a40-bd94-4d48-9a1c-6fa30361ac9b">
+                    <propertyInstance Id="db2f0bf2-fa5d-4114-bea6-395a6d715311" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="e2fe0b06-5717-4d40-9e10-82835c00ae09" />
+                    </propertyInstance>
+                    <elementDefinition Id="41cd0946-05cb-4f14-aa31-5cb64c6d2971" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="eb0aa14a-e02f-40d8-96c4-dd98c4538171">
+                    <propertyInstance Id="0312fd43-dff1-4df0-bc96-996ac1fc9472" name="params" value="false">
+                      <elementDefinition Id="64a4d491-b5bb-4a16-b078-ac6d63a1d917" />
+                    </propertyInstance>
+                    <elementDefinition Id="6052ba16-0845-404f-9138-df632d345912" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="fa54c5b1-4c37-4dcd-9aa7-2b693830f821" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="375c0084-e278-4c2c-853a-ab2fa85ef3fe" direction="Return">
+                  <elementDefinition Id="61bbe08a-2c64-4410-9827-9acdb56470eb" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7bada574-045d-4f18-8214-4f1909e6890b" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="6e291591-434f-42fc-9a11-0a620dea09f2" name="input" direction="In">
+                  <referencesInternal>
+                    <reference Id="dbfed091-830e-42d5-a0fa-5e0f639abced" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=SpacesStrategy Member=(Name=Compose OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=String)]) ParameterIdentifier=input" tag="ViewCode">
+                      <elementDefinition Id="7843b656-bd35-436e-a601-567c11db0f8e" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="08766917-e557-4a40-82f8-8454e8d2fdac" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7bada574-045d-4f18-8214-4f1909e6890b" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="e179f39f-8cbd-4812-ba31-8e927cbecd40" name="SpacesStrategy" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="be4a5a4d-f435-45d3-9103-e2119c936c23" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=SpacesStrategy Member=.ctor" tag="ViewCode">
+                <elementDefinition Id="348c10e9-8b8b-47fd-bf93-7e0f188c5b3e" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="f2e576b9-831c-4eae-b87c-1aea6126e272" name="method" profile="CSharpProfile">
+                <elementDefinition Id="67b11ad5-0118-42cc-a285-13c8b42b8a58" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="25b9b76d-bee6-49bc-a424-bebd624847df">
+                    <propertyInstance Id="a928745b-e2a7-42a5-baa6-d84662e874f8" name="ClrAttributes">
+                      <elementDefinition Id="4d011b12-bad5-49c6-a6c3-96230fa48e51" />
+                    </propertyInstance>
+                    <elementDefinition Id="21312317-06c9-40c4-9bcc-020ac7014f9d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e0bb710c-6f3c-4340-9598-7ccf45453d34">
+                    <propertyInstance Id="5846f759-dfeb-440a-bf41-2c755963c6be" name="IsPartial" value="false">
+                      <elementDefinition Id="97864450-5235-48fc-bf0c-494afa9cad7e" />
+                    </propertyInstance>
+                    <elementDefinition Id="5cba1d84-f803-42d5-8b4d-91b76fe191ac" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8a798825-3e9a-4479-b474-10002af11db0">
+                    <propertyInstance Id="9676acb8-ef39-49f6-a37a-b6046171a120" name="IsUnsafe" value="false">
+                      <elementDefinition Id="2ff9484b-383b-42b1-a387-db5d713bb083" />
+                    </propertyInstance>
+                    <elementDefinition Id="597ae02a-47b1-4076-8d0e-42a503c6f9e5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c13dac12-1967-49f0-b332-fa7f3aedb9c2">
+                    <propertyInstance Id="d72b74b8-5563-42d8-a507-6f29c9cd356d" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="8754aa6d-2c7f-4584-92be-6f157d49f766" />
+                    </propertyInstance>
+                    <elementDefinition Id="e5e0bdda-72f9-4416-ae07-d68dc9a6be10" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c77e0e66-1964-49de-b159-1087f6257a41">
+                    <propertyInstance Id="4592ccd1-47ba-401d-a8d5-83084adb1246" name="params" value="false">
+                      <elementDefinition Id="45a937e8-0054-4933-971a-e23fb104ac52" />
+                    </propertyInstance>
+                    <elementDefinition Id="ef960694-53ed-4ea6-85a9-cdddd899a0a5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="ffeb7dea-97e6-4a78-97aa-52315c018fde" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ae26c88f-fb9c-4376-ad26-7cb81640d004" name="SquareBracketsStrategy" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="6afc8bf7-af05-4574-a021-705d86c15e5b" handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=SquareBracketsStrategy" tag="ViewCode">
+            <elementDefinition Id="38fa8dcf-a8ff-4aeb-bbee-99247d69feb6" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="8a0d991a-8a11-4a02-9951-1fc68d00ef85" name="class" profile="CSharpProfile">
+            <elementDefinition Id="460be58f-eb03-44ba-90eb-9fd7212f4abc" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="f61a5384-0746-48fe-af1e-0786b522189a">
+                <propertyInstance Id="1ef15f8c-81a2-4604-9d70-1ddc294440d6" name="ClrAttributes">
+                  <elementDefinition Id="604f88d5-4024-4b6d-85d1-54137e4d3e09" />
+                </propertyInstance>
+                <elementDefinition Id="2d3d1e9f-36a5-456d-80a7-25c7bb41d946" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="004f20f5-badd-4420-ac83-39482d86c35d">
+                <propertyInstance Id="d066dee9-3fd9-41b2-96c5-1bb2f2d17217" name="IsPartial" value="false">
+                  <elementDefinition Id="6025da02-202b-4484-b19f-7d134a3e7451" />
+                </propertyInstance>
+                <elementDefinition Id="b0564b97-bc98-4354-8342-6366e79cb766" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="16815215-441a-434e-9845-2a58502d9a01">
+                <propertyInstance Id="0dd8184e-a5f8-46fc-9de1-5adb2394edb6" name="IsStatic" value="False">
+                  <elementDefinition Id="3910c4dc-8a26-459a-9eb9-7f7f9c44996b" />
+                </propertyInstance>
+                <elementDefinition Id="6d43270e-f0cc-4935-b3d8-d2b2f46df705" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="c4e12a4d-2210-4252-b319-c352357a673e">
+                <propertyInstance Id="6168701e-0521-4cf9-9b5c-e083a9225939" name="IsUnsafe" value="false">
+                  <elementDefinition Id="65777abc-07ff-4cf9-b3f0-fbccda0ec323" />
+                </propertyInstance>
+                <elementDefinition Id="73112098-acfd-4152-9050-ed64a3267bce" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="b821d66d-028b-4591-903e-3e7d39997183">
+                <propertyInstance Id="b9032eb3-e606-449a-a163-1c0669e0256a" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="cefde8fb-c009-4236-a6f5-dac980ac3c02" />
+                </propertyInstance>
+                <elementDefinition Id="ea3b2226-e0c8-4847-9722-7215445059e6" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="26562318-3846-4177-b286-48d5e897eec7" />
+        <suppliersInternal>
+          <interfaceRealization Id="c8322910-b471-4509-8a53-0c752df97dae">
+            <interfaceMoniker Id="c2974a24-24ef-4247-adcb-186fa0b1ca63" LastKnownName="Strategy" />
+            <elementDefinition Id="3745c18a-b97d-4353-b6dd-2b0f1d074e8f" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="6cc87736-df2f-4a9c-bbf4-05bd12a6c2e0" name="Compose" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="cadbb1dc-0cf0-4e6c-93da-245e7e4602ca" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=SquareBracketsStrategy Member=(Name=Compose OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=String)])" tag="ViewCode">
+                <elementDefinition Id="8198490f-ed0d-4623-9bd1-cee06218444f" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="b76fb7a6-f9f4-4ec9-9ede-49e8dfdcd19e" name="method" profile="CSharpProfile">
+                <elementDefinition Id="67dd9317-5a95-4ca4-95f0-3719ed1149bb" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="61a1ef09-da7a-4e00-ab47-210d58ccb1f4">
+                    <propertyInstance Id="897bfd28-dbae-48fb-953e-cce2380293c6" name="ClrAttributes">
+                      <elementDefinition Id="560dce1e-120e-45a5-b890-092b5081e5d3" />
+                    </propertyInstance>
+                    <elementDefinition Id="89e4f572-f37f-4e13-8edf-2bcbae0ef80d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1b999709-3ae0-45ee-9b8e-05adf3baf53f">
+                    <propertyInstance Id="3a97dd04-0e58-4406-a69e-40de6d2d3a64" name="IsPartial" value="false">
+                      <elementDefinition Id="82236209-9e00-4436-85db-98f8b55f5c99" />
+                    </propertyInstance>
+                    <elementDefinition Id="20f7a92f-f423-4506-a108-ce7f9a7a3be9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8a8581bf-69de-49b9-8dfb-6c20bedebb00">
+                    <propertyInstance Id="d06f0dbd-1c8f-41cb-b573-cb3a7f4b7939" name="IsUnsafe" value="false">
+                      <elementDefinition Id="77a156c2-a8d1-424b-ba77-f0de466b4648" />
+                    </propertyInstance>
+                    <elementDefinition Id="27bc9512-deed-418a-9cfc-3c76b236f79b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1f04866b-c8a6-4dae-9fd4-83d27568e60b">
+                    <propertyInstance Id="f877868d-9e0f-41d5-a7e7-6019e0f1a6bf" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="6cea938c-05f4-4433-b8a9-14ce8a3967b4" />
+                    </propertyInstance>
+                    <elementDefinition Id="96f2ddcb-0a36-4036-8fd5-97fd11073356" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b3301291-cb3b-4420-a157-65f97dc6d4a1">
+                    <propertyInstance Id="f9f38ccf-37a6-4e13-a9fe-3a724f911d96" name="params" value="false">
+                      <elementDefinition Id="b7bb0147-6089-4665-99cd-619ca9486523" />
+                    </propertyInstance>
+                    <elementDefinition Id="b9cab612-a8d4-467b-a483-bc5afdb07fa9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="42ec4e2b-18b3-4ad1-b2b5-31cf1f3f6a2e" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c182cc29-e4c1-4a3b-9ea4-9aad2be413d5" direction="Return">
+                  <elementDefinition Id="e3cb8d4a-1f27-48bb-b00a-88fb807283dc" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7bada574-045d-4f18-8214-4f1909e6890b" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e9bd603f-3747-45f3-89cd-7807705cdf25" name="input" direction="In">
+                  <referencesInternal>
+                    <reference Id="26605329-399b-4098-a765-594338209175" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=SquareBracketsStrategy Member=(Name=Compose OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=String)]) ParameterIdentifier=input" tag="ViewCode">
+                      <elementDefinition Id="6ac9d658-eff4-426a-865b-063cfe2332d7" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="cf8a027b-74c0-4253-893f-5d377f38f0cc" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7bada574-045d-4f18-8214-4f1909e6890b" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="34ea1b2b-c0b9-4dfd-9395-b1b1621ddcb6" name="SquareBracketsStrategy" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="35269885-0a34-489e-a9e7-e659cf8a3e1e" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=SquareBracketsStrategy Member=.ctor" tag="ViewCode">
+                <elementDefinition Id="93a998ae-fa15-436d-9a00-00b6e33fc606" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="b710c180-84a6-453d-9a44-e8211f41a542" name="method" profile="CSharpProfile">
+                <elementDefinition Id="c2f8ce27-4804-4a44-b596-0ebb56387a82" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="088c2e8e-dd60-43d3-9a06-b48f752536b5">
+                    <propertyInstance Id="63a9044a-f8bb-4bc3-8a2d-94e6300500c7" name="ClrAttributes">
+                      <elementDefinition Id="034c3c7e-da9d-470e-8f7d-949b070b0490" />
+                    </propertyInstance>
+                    <elementDefinition Id="6c8f5132-1715-4e85-aaf2-e074ec5e6291" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ade35bc2-b34c-4533-a7cb-35942605297e">
+                    <propertyInstance Id="55d714db-dbe7-4fb5-a427-daf4e34ecb49" name="IsPartial" value="false">
+                      <elementDefinition Id="a38287a3-5004-4592-bb3b-fe1b02340991" />
+                    </propertyInstance>
+                    <elementDefinition Id="4c20f7aa-e6a5-4d06-880b-40b86411b1b1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="59dfdae9-f2c8-4745-9b79-c80e5b26e577">
+                    <propertyInstance Id="4a760cc5-f94a-470e-b9de-0d6e09a79fb2" name="IsUnsafe" value="false">
+                      <elementDefinition Id="5b6a4fdd-a262-46ec-81e1-38934e7f8a3e" />
+                    </propertyInstance>
+                    <elementDefinition Id="3cf74fd4-5260-4cad-810a-a4567d525c26" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7b6c01aa-049e-4469-886b-843e1975a7a4">
+                    <propertyInstance Id="6d27d470-2bb2-416c-bbf9-28a2f6814078" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="ea9cec13-24cd-4f1b-ad6b-3d4b8ae9b3b9" />
+                    </propertyInstance>
+                    <elementDefinition Id="31d7cfad-4a1c-4b75-91df-4601956220df" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="af32408a-53a9-4268-b3c7-94020e648f7b">
+                    <propertyInstance Id="f132dc98-9dae-45c6-b8f6-9ce048df92c7" name="params" value="false">
+                      <elementDefinition Id="83d97a18-9d36-4ca8-976c-476ff6a04264" />
+                    </propertyInstance>
+                    <elementDefinition Id="09c80253-7291-4106-9771-54883aa4f944" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="b600f624-da92-43c4-94b7-b2629d57ecf9" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="c2974a24-24ef-4247-adcb-186fa0b1ca63" name="Strategy" isAbstract="false" isLeaf="false">
+        <referencesInternal>
+          <reference Id="28e98ff0-22ae-4416-8e49-abb2a2fa5173" handle="viewcode://./CodeSchema_Interface?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Strategy" tag="ViewCode">
+            <elementDefinition Id="fd40ab0c-4d5c-40c7-a1ba-ccaed71888ef" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="5210d823-e4f8-46b8-b124-847694db4fc1" name="interface" profile="CSharpProfile">
+            <elementDefinition Id="9c45db0d-1a77-4d8c-a4d4-8b6151bb8fe2" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="a09e21f4-1207-41af-b0e8-b57b979e8b33">
+                <propertyInstance Id="4e523cec-f0f1-47f9-8162-fed5051d6931" name="ClrAttributes">
+                  <elementDefinition Id="fb50abb0-6c78-48bd-8b94-b743ad73f135" />
+                </propertyInstance>
+                <elementDefinition Id="5d1ec386-da93-4987-990d-8d79a936f16c" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="6d5bfa48-33f7-4772-8c76-ea80cfd5930a">
+                <propertyInstance Id="d8d73400-5e69-476d-adb6-477895e4dfef" name="IsPartial" value="false">
+                  <elementDefinition Id="352233fe-8be8-4246-99ce-2807103553df" />
+                </propertyInstance>
+                <elementDefinition Id="fe6b91e7-7792-46c1-8528-61ad023ff74d" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="90f38797-e182-4e46-91ff-05e131b20b4d">
+                <propertyInstance Id="3649aaa5-6cb6-46e9-a3de-113ae5e8ebe3" name="IsUnsafe" value="false">
+                  <elementDefinition Id="a5ea3bc2-6d62-4b28-a146-78038265b60b" />
+                </propertyInstance>
+                <elementDefinition Id="5fd15932-664b-494c-93c7-e3fe5ccaf62b" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="4581c9d3-1d78-43c4-8f45-8e007f4c7ac1">
+                <propertyInstance Id="94a11c64-c00c-48bf-ac96-beca8fd011ca" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="aa284ec4-e567-43f1-8f17-4dad17c0762e" />
+                </propertyInstance>
+                <elementDefinition Id="219c33c9-7d9e-4d15-936e-5dd1e089344e" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="86b4b6bb-2591-4c99-b451-25b534661ef0" />
+        <ownedOperations>
+          <operation Id="d00bc410-708a-4d61-9f6b-936f5d349573" name="Compose" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="91c01ad6-2522-4227-9f60-ad21065ae6b0" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Strategy Member=(Name=Compose OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=String)])" tag="ViewCode">
+                <elementDefinition Id="55f8904e-1c9d-4224-ab06-3cd0204605a1" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="e988beed-a10b-4f5d-9288-9ec93805b0d0" name="method" profile="CSharpProfile">
+                <elementDefinition Id="1c3d24b3-d5ac-4b14-a2a8-c99fb1b83fba" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="78f474c9-dbc2-4fba-9b0d-b61cffba19c0">
+                    <propertyInstance Id="9a705a19-4dcb-4c11-afe0-1d2f35c380d9" name="ClrAttributes">
+                      <elementDefinition Id="5be0956b-864c-4404-8d4b-e3bddd166c51" />
+                    </propertyInstance>
+                    <elementDefinition Id="85b8d924-186e-422a-a4d3-91788816ad86" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b822e132-2dd5-4016-8453-86a3a564da5b">
+                    <propertyInstance Id="92a6b437-1b91-479b-96df-e6ed12ced740" name="IsPartial" value="false">
+                      <elementDefinition Id="338f7524-be16-4a72-b1df-1a650691d7be" />
+                    </propertyInstance>
+                    <elementDefinition Id="5373d90b-9640-4b87-8c5c-8813e40389d9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9a7618a8-92ee-418b-95d4-dea9dfdc96ff">
+                    <propertyInstance Id="68bb7aaf-2148-4831-927e-89c55e5eed32" name="IsUnsafe" value="false">
+                      <elementDefinition Id="0fb870cc-2bd4-4474-88d0-6862d45e3241" />
+                    </propertyInstance>
+                    <elementDefinition Id="b2121305-233f-4e81-abd3-f0ce45a7e644" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b5ef46e0-3f4d-4e6a-b58e-6cc1665c4297">
+                    <propertyInstance Id="a8648bd4-5d91-4971-a059-e2225caf8b7c" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="2184de48-b953-4d8e-8b25-5d4662ab0438" />
+                    </propertyInstance>
+                    <elementDefinition Id="c0ef696a-21ed-4b25-a942-d5a3ad3533d9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6190ce84-e51b-4041-b6e9-18c3d72aaa6f">
+                    <propertyInstance Id="6e52b4e6-7542-4612-a1d0-53ad70ed0edb" name="params" value="false">
+                      <elementDefinition Id="e23e1a7d-4840-4d7f-aece-8ce92a33eccf" />
+                    </propertyInstance>
+                    <elementDefinition Id="83c599a5-6e60-4b26-823d-cd47c79689eb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="3fb36d8d-01c3-41f0-9800-18af9afbbd98" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="915b7222-9ee3-4dd5-8fda-f29fc50d034f" direction="Return">
+                  <elementDefinition Id="d26b237d-6eb0-45cf-b7ef-09d570b171e1" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7bada574-045d-4f18-8214-4f1909e6890b" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="b1727726-3cb5-4401-9a73-0090b1fb194c" name="input" direction="In">
+                  <referencesInternal>
+                    <reference Id="ff9ffd4f-3ae7-45fa-b9ce-3c563a8605a4" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Strategy Member=(Name=Compose OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=String)]) ParameterIdentifier=input" tag="ViewCode">
+                      <elementDefinition Id="cce1e94d-8cd4-4527-b268-0c8e4539772a" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="3993e06b-fcac-4b83-b52e-96e767e3ee1e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7bada574-045d-4f18-8214-4f1909e6890b" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="75e04d83-c888-4e3c-a94b-19e93f8ae75e" name="Circle" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="fea497b9-127c-4f53-85b0-b29f0aba9f77" handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Circle" tag="ViewCode">
+            <elementDefinition Id="757d6ac6-b435-45d6-8610-7277db0cc844" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="24041cd8-918a-45c8-9acb-a5c102f6d50e" name="class" profile="CSharpProfile">
+            <elementDefinition Id="b8923b72-cd83-45b4-ad50-f6f305edf72d" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="d0bc6da9-2f8a-46fc-874f-b0cb1b2198be">
+                <propertyInstance Id="c8cbca94-ef9e-4a6d-8552-715165664c4b" name="ClrAttributes">
+                  <elementDefinition Id="aad26b30-f31a-4783-b305-0f48e91093c0" />
+                </propertyInstance>
+                <elementDefinition Id="3b640250-d2cb-43f9-b21d-37891388e2b8" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="2b723491-7869-4a53-9fcc-4e81b055aaf2">
+                <propertyInstance Id="23ac1b03-695e-456b-8d6b-96c0cc2e2dba" name="IsPartial" value="false">
+                  <elementDefinition Id="b6bc4f8e-6b15-402a-8c41-2caba8026c6f" />
+                </propertyInstance>
+                <elementDefinition Id="e0c9d85f-59b0-4a36-9350-c59a11cd7329" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="918707fb-971b-4bac-acb8-1d49815c8796">
+                <propertyInstance Id="2b2d1d02-23ea-4b7c-9de0-f4075c9138c7" name="IsStatic" value="False">
+                  <elementDefinition Id="73eabb15-1931-4d49-95b0-4ba92bdf3504" />
+                </propertyInstance>
+                <elementDefinition Id="ca8a4127-e632-4dbc-a927-d25c64c607d7" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="30a9a65f-ef8e-4ef1-bc43-479131b9c10b">
+                <propertyInstance Id="fc1d1be7-480f-4b8e-892a-5a8ed45bb599" name="IsUnsafe" value="false">
+                  <elementDefinition Id="e7edd8b8-228d-4b91-9fab-c46a0fb64b1c" />
+                </propertyInstance>
+                <elementDefinition Id="0d368c80-a24a-4397-b415-aa68a8f4b749" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="21604798-86e7-4bc9-a0b7-81f259ad4e67">
+                <propertyInstance Id="c18fded4-542d-4c20-935e-df88757f8c50" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="4010340f-7b01-475b-8ab5-1428bb7f2032" />
+                </propertyInstance>
+                <elementDefinition Id="9bc8de7e-8e5d-4381-9145-ca405046ee24" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="11fee49b-1832-4fb5-b8b4-e5d6fcc8dfb6" />
+        <generalsInternal>
+          <generalization Id="2d175f92-ee68-4894-a29b-5d88ab97a37e" isSubstitutable="false">
+            <classMoniker Id="298df600-61fb-4cd0-b4f6-af79126419fd" LastKnownName="Glyph" />
+            <elementDefinition Id="70079518-f3ef-4756-a71a-cce493278e07" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="223fda29-15e8-4005-a9eb-6f947d1298e1" name="Draw" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="4afef488-6f24-45b7-96ee-d3a0c27e7116" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Circle Member=Draw" tag="ViewCode">
+                <elementDefinition Id="6d1aca8e-e292-4393-8d15-c4edb648caab" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="981d8ef1-fa5b-41fe-a427-9dfc3f75a4bb" name="method" profile="CSharpProfile">
+                <elementDefinition Id="a67a865b-2668-4ad7-8b10-c16165a01f4a" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="16e16b0c-f9d5-4aae-b69d-7c0ab3029eb2">
+                    <propertyInstance Id="e3fabd24-95fe-4358-abcd-dd0e0cf31f41" name="ClrAttributes">
+                      <elementDefinition Id="12a64de1-65bc-401f-b6e2-a03bc35cc2e8" />
+                    </propertyInstance>
+                    <elementDefinition Id="de65e462-a1e3-4088-bd23-af04a26fbf8c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="55a9df68-daf4-4b6c-8ad6-7121844b14e1">
+                    <propertyInstance Id="7ea4a77a-c30e-46f4-b063-49177b9003c6" name="IsPartial" value="false">
+                      <elementDefinition Id="3459b6b7-de2e-4309-97fd-73a1b470cef8" />
+                    </propertyInstance>
+                    <elementDefinition Id="2cc3299e-da14-4287-aa6a-d1610cfea83c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="231d299b-d579-4a02-8df5-4040840b72b0">
+                    <propertyInstance Id="23d36634-a10c-40e0-9583-884ffd8d5ac9" name="IsUnsafe" value="false">
+                      <elementDefinition Id="2b08e898-aed4-4dee-952c-c80cfe3afc44" />
+                    </propertyInstance>
+                    <elementDefinition Id="65020777-9b30-4b97-a30f-f693506f051f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fa5b006b-b8fa-4ca0-adaa-c119c63f9c82">
+                    <propertyInstance Id="95bc9339-1200-4610-83ea-b7aba2d479fe" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="bd1a8cb7-6cb2-4524-8db0-381c822bbe54" />
+                    </propertyInstance>
+                    <elementDefinition Id="3d3682fb-b418-46c7-aed3-a2114c90737a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9cf3ba43-cf7a-4c4c-9a6f-2c1132eb928e">
+                    <propertyInstance Id="e7a95593-e7cc-41be-8380-dcbe38b6e4b5" name="params" value="false">
+                      <elementDefinition Id="4dd3ae04-4674-4691-85bd-05ed3a964e0f" />
+                    </propertyInstance>
+                    <elementDefinition Id="f209481b-f579-4934-8f9a-9e71f4badafd" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="cd2e91e3-53a2-4210-8826-bff7b095e280" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="295aac43-5912-4664-9c93-aab4a6e763f4" direction="Return">
+                  <elementDefinition Id="c9c9a3f1-c225-4eb6-b774-cd0e0c1a50c9" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7bada574-045d-4f18-8214-4f1909e6890b" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="e30414d5-b589-4407-ad90-41a51f82781c" name="Circle" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="b0bbd486-5732-42a4-b60a-344d9cd42ae5" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Circle Member=.ctor" tag="ViewCode">
+                <elementDefinition Id="875b5a89-a29e-48cf-9501-8c44e67081b1" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="b55f98af-441a-49d8-8fc0-23345a2ef351" name="method" profile="CSharpProfile">
+                <elementDefinition Id="23ae4bf5-992b-4d64-a94f-c944aea481de" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c8e0d6bc-a15a-4b3f-9620-8975e929920f">
+                    <propertyInstance Id="77955335-5f65-449d-9449-930d60dfa337" name="ClrAttributes">
+                      <elementDefinition Id="9fcf7544-8a7d-4814-bdb6-835eee60c2d6" />
+                    </propertyInstance>
+                    <elementDefinition Id="71a3ef3f-efa9-4c8d-a3fd-527974207154" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0263dbec-2fc3-42e6-bbfd-bdc384ddfce4">
+                    <propertyInstance Id="b7c8ab83-6dc7-49bc-92bd-f2b619330b3e" name="IsPartial" value="false">
+                      <elementDefinition Id="c058cbe2-f251-4ce8-8e88-37cba576599c" />
+                    </propertyInstance>
+                    <elementDefinition Id="f08ca5db-0336-4e27-baee-546e155a8739" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3ab4e511-a460-46ac-be22-8afc748dd7c6">
+                    <propertyInstance Id="5599ee2d-b1ea-43af-a324-a580683d14e1" name="IsUnsafe" value="false">
+                      <elementDefinition Id="201cc3a0-8c0a-4339-b40b-026d8ae7c593" />
+                    </propertyInstance>
+                    <elementDefinition Id="8fe3a856-6cb9-45af-8ce6-e46991682c78" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="db4b24e3-d4b2-4b96-ba9c-cd35d838324c">
+                    <propertyInstance Id="0adcb3f0-2f9c-42be-8469-579ac9340b29" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="8c7e4f21-c3b2-46fb-8ecf-41cc61ca05ad" />
+                    </propertyInstance>
+                    <elementDefinition Id="6a7eab02-e8ef-4897-a470-da143817ce6b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="66a84d07-7689-4fa5-9915-e0e3a3a97929">
+                    <propertyInstance Id="c8845cc8-c5d6-4062-a455-a21636961d66" name="params" value="false">
+                      <elementDefinition Id="4a39f69e-e13b-4907-9ed1-55663d55630a" />
+                    </propertyInstance>
+                    <elementDefinition Id="f9142176-9ad3-4a3c-9bde-b99bccbd8a6e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="81705757-df65-4b2b-ab63-613ccad2d26a" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1855f1d7-ae4b-43e7-9b1d-50f357ac22d9" name="CurlyBracketsDecorator" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="d71e219f-93bc-4af7-bf77-2587379a9d22" handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=CurlyBracketsDecorator" tag="ViewCode">
+            <elementDefinition Id="e558fa9e-cd94-43dd-bc6c-3820d13ee623" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="e9625eeb-02a7-42ac-9ef9-68f977bb4eb8" name="class" profile="CSharpProfile">
+            <elementDefinition Id="ebedfe26-31b0-4894-b893-a4f07ad1c928" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="99723ce3-e9c4-4784-adbc-d7cca1ee825a">
+                <propertyInstance Id="9797eb54-3a64-48e3-a71b-35ec5635f51a" name="ClrAttributes">
+                  <elementDefinition Id="8c231112-cac4-43b0-8d78-24426a6e467e" />
+                </propertyInstance>
+                <elementDefinition Id="58e7874c-74c9-4ba6-b0cb-6ed9d61fe426" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="f2eb0257-f928-42d2-af12-5eb0b3b5bf70">
+                <propertyInstance Id="a88d7807-0c4f-4ea1-9a17-5c8710274ecf" name="IsPartial" value="false">
+                  <elementDefinition Id="d65d6e90-bdfb-45f1-9188-2a38c6ea280b" />
+                </propertyInstance>
+                <elementDefinition Id="174a18f9-31c1-476c-a9af-4e3dd981c66a" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="ad25113b-951a-4f6b-bcf7-ae548fa211c7">
+                <propertyInstance Id="5cbeb9d9-cee2-4cf8-ba14-b02829348ce2" name="IsStatic" value="False">
+                  <elementDefinition Id="20b73174-bad4-4fc2-8672-e53c65259562" />
+                </propertyInstance>
+                <elementDefinition Id="9749aa6b-bde3-4acb-8bf9-d45089486eb5" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="66047026-c13b-4cee-ba54-39912a677b95">
+                <propertyInstance Id="3905f3d0-7a3c-4755-a298-8538aa28c5bd" name="IsUnsafe" value="false">
+                  <elementDefinition Id="dfc87505-2a5b-4c38-b3e9-322e57ab5f96" />
+                </propertyInstance>
+                <elementDefinition Id="18246e29-f0a5-4cef-b463-af87aa459479" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="0a4aa2fc-826d-4ff2-8e57-3a64f9aad553">
+                <propertyInstance Id="0224873e-ce30-4b77-bc81-45082fce783d" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="f20b3844-dafe-42d9-897f-984d4470aadf" />
+                </propertyInstance>
+                <elementDefinition Id="666ec6d1-74d2-44ad-9000-f869ace42cc2" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="a5869853-f7f7-4531-8be8-3e1141b14166" />
+        <generalsInternal>
+          <generalization Id="62397bd5-c1fb-4b2c-b74d-9526247a0005" isSubstitutable="false">
+            <classMoniker Id="fa5c180f-9c07-43be-b015-5ef4ecaa0256" LastKnownName="Decorator" />
+            <elementDefinition Id="dd6e5e4e-4ca9-4c77-992b-c457ff899e7a" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="5fbb5d54-537d-43ab-8d08-bbfa2be1511b" name="CurlyBracketsDecorator" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="a5ce8eca-edec-4a10-90c9-55c93f132dbc" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=CurlyBracketsDecorator Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Glyph)])" tag="ViewCode">
+                <elementDefinition Id="c93a3eb1-3b52-4d3a-9438-b839888b20ed" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="c96dadf4-9241-4649-925e-90504618b1e7" name="method" profile="CSharpProfile">
+                <elementDefinition Id="b2f05a56-3d5b-4880-a0b6-9246004ab1c3" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3df7f684-5f56-4e02-8d8a-02bdbfc1bce5">
+                    <propertyInstance Id="772cf4d6-390c-43ee-bc55-663c7d783ba2" name="ClrAttributes">
+                      <elementDefinition Id="778be9f9-227e-49ee-9b97-f31629e31788" />
+                    </propertyInstance>
+                    <elementDefinition Id="282ebea2-3fc8-4667-89ec-1b845290da8a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ec267ed5-6b56-4644-88fd-96b71657128c">
+                    <propertyInstance Id="566c951e-c718-4895-a669-bddaa841b842" name="IsPartial" value="false">
+                      <elementDefinition Id="863a8ea9-1d2c-48fd-bf90-f63653da9da4" />
+                    </propertyInstance>
+                    <elementDefinition Id="70f5614a-5e03-4038-8afa-5e00906b05c1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2a724e81-0926-48ad-856f-511831e566ce">
+                    <propertyInstance Id="e493577c-9efe-477a-9bb1-a5b89f6627cc" name="IsUnsafe" value="false">
+                      <elementDefinition Id="c5d6ec22-2678-45d8-8ef5-6387dd87c272" />
+                    </propertyInstance>
+                    <elementDefinition Id="fb237bfd-b1f1-4421-80d2-8f9f7113b6c5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b7d21253-e440-4e8c-8aef-b3fb061782ef">
+                    <propertyInstance Id="603c621f-524f-4dca-916b-75bb97adb7cf" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="f2e301ed-80a3-49dc-82d5-699b4a10a854" />
+                    </propertyInstance>
+                    <elementDefinition Id="3b41e965-7fc6-4e5e-aa44-846546f8d628" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c67fdeaa-6ea0-4c10-a167-368e0f393570">
+                    <propertyInstance Id="8a336ed7-ae64-4c7f-87a1-63906497a752" name="params" value="false">
+                      <elementDefinition Id="f127407f-a0b5-4358-8289-345a281db778" />
+                    </propertyInstance>
+                    <elementDefinition Id="74ab3be1-1285-4b63-b6b8-e0c9cc9af326" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="a4b431fe-b943-47dc-9165-1163f775f0fc" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c552bf02-e465-43fc-92e4-18f0e6a5a229" name="component" direction="In">
+                  <referencesInternal>
+                    <reference Id="9d254c35-34be-4138-af85-f12396f1cf26" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=CurlyBracketsDecorator Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Glyph)]) ParameterIdentifier=component" tag="ViewCode">
+                      <elementDefinition Id="c7cb79ae-e111-4d1e-bf64-7d6489faea8f" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="c7ab80cf-2fc5-40ad-99ae-8812c406b033" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5e35fb58-cb27-41d1-94b5-b31ecc88d0e3" LastKnownName="Glyph" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="eab73989-dfae-4072-b49d-8346af425f4a" name="Draw" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="ba8ddf9e-1e86-4038-81aa-b56fd5fa91f4" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=CurlyBracketsDecorator Member=Draw" tag="ViewCode">
+                <elementDefinition Id="f7fd0550-6386-4799-8a20-358730daf143" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="a9b1ae4f-f774-49a7-a8ac-767dba3902a7" name="method" profile="CSharpProfile">
+                <elementDefinition Id="cd586d37-cb48-4cde-a932-f4a2bb5b1c04" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="749160f1-3bd0-4f42-a73b-4584731a3bf1">
+                    <propertyInstance Id="559b13d2-746f-4136-b0d3-884998e7c15f" name="ClrAttributes">
+                      <elementDefinition Id="b3282867-acd8-4b7e-9fb5-cfa8453d5540" />
+                    </propertyInstance>
+                    <elementDefinition Id="66741d65-95f4-4452-90a9-734040de59fc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3ee93703-68ba-42b9-850c-82bb5c0d1cff">
+                    <propertyInstance Id="e0af71d2-eb29-48c9-b203-f8e3d5bd7a15" name="IsPartial" value="false">
+                      <elementDefinition Id="6764faa5-cb0c-4611-a495-d81b3c10bfe1" />
+                    </propertyInstance>
+                    <elementDefinition Id="bae81932-9e4a-4e93-8f58-84a69fb3457b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9a9d806a-d36a-4863-ab50-61f3a4d1fa1d">
+                    <propertyInstance Id="3c198840-ecc8-4ec3-836d-c86446829e10" name="IsUnsafe" value="false">
+                      <elementDefinition Id="330d4871-58e5-4d9e-9faa-218c07e323ed" />
+                    </propertyInstance>
+                    <elementDefinition Id="b0435423-d82d-4dac-812b-e2f1811bdcfc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="eb4d7d1c-5e0f-4272-8447-a07a72de5b48">
+                    <propertyInstance Id="0780d367-31e3-4e04-b157-61b5f918885b" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="ac69e4eb-e484-461a-b23e-dd36ed38453e" />
+                    </propertyInstance>
+                    <elementDefinition Id="116c4222-6e3e-481f-bc5e-0673fd11abf2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fa841f24-59b4-4055-a6ec-da37a0341502">
+                    <propertyInstance Id="cbc51f34-78f4-4659-b7a8-c243ab4e5ab0" name="params" value="false">
+                      <elementDefinition Id="8e779b05-1f7a-4c3c-a1a7-654554a84f7a" />
+                    </propertyInstance>
+                    <elementDefinition Id="5324b0c1-7047-4c9e-aa4e-16b95a5fc1bb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="55f124b6-6c59-468e-8a40-ed06e90ee857" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="56bf3245-f3ff-4460-a096-8ffc4de510a6" direction="Return">
+                  <elementDefinition Id="2ae5ad5e-c094-404b-8fef-c7bdc76382c4" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7bada574-045d-4f18-8214-4f1909e6890b" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="fa5c180f-9c07-43be-b015-5ef4ecaa0256" name="Decorator" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="e716e3dd-3c93-4e00-b198-f862521dbd40" handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Decorator" tag="ViewCode">
+            <elementDefinition Id="8f25ac68-23ce-4e8e-ba4c-418b87ba8fa5" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="4b251475-c835-47fc-82e4-63f9072605df" name="class" profile="CSharpProfile">
+            <elementDefinition Id="ca5a7277-9cc1-4fa6-80fa-83336fce91b1" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="80ddf2f3-232e-428f-a971-38479c1967f8">
+                <propertyInstance Id="d69713eb-346f-406d-85bc-df239f84dc0c" name="ClrAttributes">
+                  <elementDefinition Id="b7c2912f-7500-4a66-ae62-b465a268fcd5" />
+                </propertyInstance>
+                <elementDefinition Id="6b0d5888-f015-416d-9866-125ef95b18f6" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="f7879701-80a5-4272-8fe6-1d76edc7dba1">
+                <propertyInstance Id="5fa5a547-268f-4924-9a4e-64766e02e8f4" name="IsPartial" value="false">
+                  <elementDefinition Id="16d0e1c3-7e7a-4b92-9c29-2a554d410d41" />
+                </propertyInstance>
+                <elementDefinition Id="a0a9079f-7ef0-4eab-839c-cf8f39a46b15" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="9c74fac2-eac1-491a-97ac-d7553c8b4236">
+                <propertyInstance Id="94c375a5-797f-4158-b383-f4844ebffce9" name="IsStatic" value="False">
+                  <elementDefinition Id="f3405cfb-932f-49f5-9cf6-b7d90d127f55" />
+                </propertyInstance>
+                <elementDefinition Id="39259173-4b8b-4760-84c2-d60fcb61e37d" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="8588e234-684a-4940-8eed-76a9ec9252fc">
+                <propertyInstance Id="9706e3b5-a323-4810-95ed-7d1740b6279a" name="IsUnsafe" value="false">
+                  <elementDefinition Id="2df64f8b-dc72-4828-84ed-736e75858f3f" />
+                </propertyInstance>
+                <elementDefinition Id="793808bf-0a54-43bb-b732-5a327a6b2d74" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="fee88250-54d9-4b0a-8828-c3af9406ebe4">
+                <propertyInstance Id="24f53dd9-d616-44e8-8148-3d5a1e32c8cd" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="a2ef60f3-5a39-4325-9486-b5484b253986" />
+                </propertyInstance>
+                <elementDefinition Id="8baf804b-8a13-46d1-8432-137964b9ceb5" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="f9325113-e93e-4484-8ea5-405b5ba010a6" />
+        <generalsInternal>
+          <generalization Id="969203f9-64d2-469f-baab-ece5ca08ab67" isSubstitutable="false">
+            <classMoniker Id="298df600-61fb-4cd0-b4f6-af79126419fd" LastKnownName="Glyph" />
+            <elementDefinition Id="522be2f6-fe3c-47b9-a752-d7b7701ae3af" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="7eca36c3-9a98-4970-b574-137043069532" name="component" visibility="Protected" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="e1d1a00b-485e-43a9-9e60-f313d35eca42" handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Decorator Member=component" tag="ViewCode">
+                <elementDefinition Id="51f78e4e-dc42-462c-a42e-35addd70fcb3" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="b375d9f1-be68-4a1e-ba50-eb75cb739e56" name="field" profile="CSharpProfile">
+                <elementDefinition Id="0a7d6d42-a874-4298-a4ac-82f44d66a900" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d8ac14d0-f72a-4ad1-b553-3e85e1db2945">
+                    <propertyInstance Id="ea32f898-6eed-47b1-908d-da48d9906ee4" name="ClrAttributes">
+                      <elementDefinition Id="dbd28469-2893-4ed1-8c06-e5d06786495e" />
+                    </propertyInstance>
+                    <elementDefinition Id="b8149068-e3c4-4417-802d-daffdfa629dc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5de65490-66d3-4b16-9aa1-b98d001c1ce1">
+                    <propertyInstance Id="e7cbfb5e-2661-458b-b743-ee09d80725e8" name="IsConst" value="false">
+                      <elementDefinition Id="2b2f2804-fa35-4386-84ae-18620fd4994d" />
+                    </propertyInstance>
+                    <elementDefinition Id="fd1848af-8a0a-4539-ab4f-d6ca81676730" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5ebfab5e-8bfb-46bb-9fa0-de9e75736dd3">
+                    <propertyInstance Id="fa759c9e-f131-4b48-a6c1-10b7b33d4ebe" name="IsNullable" value="false">
+                      <elementDefinition Id="36ae303e-5171-4c31-84b1-b01648dbf23c" />
+                    </propertyInstance>
+                    <elementDefinition Id="990066f3-5915-4398-9da1-cada413da582" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8f7b0b2c-d118-4915-b8c1-488013b3fcf5">
+                    <propertyInstance Id="79d55feb-35ab-4723-963a-ba4c126a1928" name="IsVolatile" value="false">
+                      <elementDefinition Id="c713e4e2-11ac-4f19-a04d-be5c8b422a46" />
+                    </propertyInstance>
+                    <elementDefinition Id="d12de3e8-bf90-4b2a-a12c-620f66a7740b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="77ff9af1-e533-465d-9fa6-eb5d01e55796">
+                    <propertyInstance Id="b35b2f37-d743-4b29-9453-c91e859b3eae" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="75a8c3d8-e7b6-4ac0-a9c4-505578c584a0" />
+                    </propertyInstance>
+                    <elementDefinition Id="48e9a865-dae1-4332-81da-1fb702fd0571" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="539c0d30-3dee-43b9-aedf-2e5cbb5f0a0a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="5e35fb58-cb27-41d1-94b5-b31ecc88d0e3" LastKnownName="Glyph" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="f677df20-f690-4f75-8047-e6c8e97dc862" name="Decorator" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="3668df3b-1453-4a90-b67e-fc1c7cd5d445" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Decorator Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Glyph)])" tag="ViewCode">
+                <elementDefinition Id="0145900e-db79-47f5-b12a-1742736b1dfe" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="e8b89e8a-56c8-4b20-8005-5ead02807e9b" name="method" profile="CSharpProfile">
+                <elementDefinition Id="fbdff238-6430-43f1-8046-ad349c8ae9dc" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="37aac63b-c762-4d47-aece-91625c8ef25a">
+                    <propertyInstance Id="08dfb038-9319-42a0-83be-9422d3feaa72" name="ClrAttributes">
+                      <elementDefinition Id="b2eb6630-7271-4c34-8440-8a3d2e75af2c" />
+                    </propertyInstance>
+                    <elementDefinition Id="ea259ec7-db2b-47be-8927-f9b303df1e8e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="65a238e5-8768-4b79-a6f9-ee1a8753c08d">
+                    <propertyInstance Id="f1037767-bee7-4ad7-b108-fa1c9657f08c" name="IsPartial" value="false">
+                      <elementDefinition Id="f56302f5-f729-408c-9273-42e8e4b923c5" />
+                    </propertyInstance>
+                    <elementDefinition Id="9636161c-a6da-4c37-9364-f8d7191e683c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="21bb5a64-f27f-457a-acd0-809571cece61">
+                    <propertyInstance Id="b992b10f-01bb-468f-9931-04e154fb73ad" name="IsUnsafe" value="false">
+                      <elementDefinition Id="2dee4bbb-b14b-434c-81f4-3febc65dd0dd" />
+                    </propertyInstance>
+                    <elementDefinition Id="d596ecd4-0d66-4278-a8a3-df91bcea47b8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8fcc7853-f761-4488-96c5-5e7a331b68fa">
+                    <propertyInstance Id="57f2cad5-8b74-46d5-8647-56e8e8316fb0" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="3cab7264-2576-41f1-8015-b51ff6caa66f" />
+                    </propertyInstance>
+                    <elementDefinition Id="79c46c3c-eaa9-4f72-a2b1-08c185fbd234" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="abf08871-ffc1-4c0d-b153-a95a1c94821e">
+                    <propertyInstance Id="a5df348a-82ab-4426-b0f0-2603f30551bd" name="params" value="false">
+                      <elementDefinition Id="1f4a4961-86eb-462b-9526-ee8be377556d" />
+                    </propertyInstance>
+                    <elementDefinition Id="51f66b05-fe92-4dfe-8a87-fdecf843cc72" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="071ed37c-91bf-4110-a3f7-64d3a39bc5cb" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1178450e-e2bb-4f0a-aeb6-04a78e4c6107" name="component" direction="In">
+                  <referencesInternal>
+                    <reference Id="a5bf3050-942d-4c94-bc4c-b297db04e90c" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Decorator Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Glyph)]) ParameterIdentifier=component" tag="ViewCode">
+                      <elementDefinition Id="1d8e10e5-e509-4a69-9dd2-5f77f1e6ba3e" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="03ce1645-c631-4e32-9ab3-292758f97a2b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5e35fb58-cb27-41d1-94b5-b31ecc88d0e3" LastKnownName="Glyph" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="da607240-46e3-4cdc-9563-96b23b5d362a" name="Draw" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="c8178c66-3eb5-44cf-a5bd-a39a2fc9e575" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Decorator Member=Draw" tag="ViewCode">
+                <elementDefinition Id="2f3d0eb1-1512-4674-91b2-b96ce1099b25" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="f331d108-f735-4c44-b929-28fa6bf2bc28" name="method" profile="CSharpProfile">
+                <elementDefinition Id="5fad705f-2f3b-4eac-8e9b-6406d77ca471" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0f3e79b8-245a-4daa-85ea-7011c9a4f90d">
+                    <propertyInstance Id="28cabefe-812a-482d-8457-160fcb192dc1" name="ClrAttributes">
+                      <elementDefinition Id="3614e5ef-f623-4c34-951b-d50f4d5a8628" />
+                    </propertyInstance>
+                    <elementDefinition Id="29f93290-c516-4384-ba28-775616ea8903" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="75e88cf4-1779-497e-b7e1-d7103e84d8da">
+                    <propertyInstance Id="d57dba78-fd94-485b-841a-17d0832042e8" name="IsPartial" value="false">
+                      <elementDefinition Id="96b80ea5-87b2-4082-a941-379f119ca6e9" />
+                    </propertyInstance>
+                    <elementDefinition Id="a807cb0e-0647-4954-8094-8dae5420ae5d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d511d3bd-849b-4407-8a8a-57294a5b83d3">
+                    <propertyInstance Id="751c2ba2-443f-4199-b784-309873ae7493" name="IsUnsafe" value="false">
+                      <elementDefinition Id="6aeb8714-65f3-467d-ad6f-3a82c6d70c97" />
+                    </propertyInstance>
+                    <elementDefinition Id="17cdf682-7446-48ce-8ef0-a87321e63803" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="dc51a0f9-9d3e-4c81-bee2-4db049833efb">
+                    <propertyInstance Id="e7232e83-1d82-45a0-b2dc-0201006778e7" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="ac0ab07e-e6f0-48d8-94ed-42fa52414c5b" />
+                    </propertyInstance>
+                    <elementDefinition Id="d450dff7-db8c-4441-938d-275348c6fb1d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ee0a251f-8dc9-4f15-8d8f-97ca6d52bf2d">
+                    <propertyInstance Id="b366eb0a-4d44-4dad-8af4-d41af05522d9" name="params" value="false">
+                      <elementDefinition Id="387ceb14-c4da-433c-8916-2a4f0ddbef21" />
+                    </propertyInstance>
+                    <elementDefinition Id="e42bc8f1-f5db-4c13-8214-5ccf5b154d89" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="55fece72-b52f-47a2-90b2-02b37cc7c965" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="4858dbc2-ca6b-497e-a285-4ac9d6d98d32" direction="Return">
+                  <elementDefinition Id="08bb7f5d-4b56-43b1-8a2f-da9c6b609119" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7bada574-045d-4f18-8214-4f1909e6890b" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="298df600-61fb-4cd0-b4f6-af79126419fd" name="Glyph" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="f6eedb1f-7e9a-4a43-8f32-05504d4a7140" handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Glyph" tag="ViewCode">
+            <elementDefinition Id="daead4e9-b9c6-4685-bac4-b6e24a4f2995" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="665021f5-10e9-4f7f-92c6-befb32bd3222" name="class" profile="CSharpProfile">
+            <elementDefinition Id="d13d2e63-830f-4d9c-aaa7-b7e181d45b52" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="a28545a4-3e01-4d29-8d9a-4d4d0f42c6b2">
+                <propertyInstance Id="1ebd301b-4371-48ba-a5d0-434f50077cf4" name="ClrAttributes">
+                  <elementDefinition Id="efafd45c-c29b-4ab5-a393-3a49ef2c0ae7" />
+                </propertyInstance>
+                <elementDefinition Id="b43467ce-0075-4255-9074-e33edfb37e24" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="85ea81b5-be4e-4acd-97bb-9709b4b956c8">
+                <propertyInstance Id="e0162990-2d6e-4037-8b6c-31d93f06414a" name="IsPartial" value="false">
+                  <elementDefinition Id="45d74667-d970-4f5e-aa4e-6d1335467895" />
+                </propertyInstance>
+                <elementDefinition Id="16973c48-bd74-4edf-ba30-890f8aef965e" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="4a576469-b597-4d1e-9374-21f352bd1ed1">
+                <propertyInstance Id="b1c22155-f595-438c-a7b4-d7da96890ed9" name="IsStatic" value="False">
+                  <elementDefinition Id="e03373fb-6fe5-4020-bf5b-d210d892f03d" />
+                </propertyInstance>
+                <elementDefinition Id="12e5e13f-4e7f-46c4-8cb1-30c3077f378f" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="0b20b0b5-8c19-426d-9178-c3a13ae5f2ef">
+                <propertyInstance Id="f079303c-5c02-4285-abf2-d05941280ce6" name="IsUnsafe" value="false">
+                  <elementDefinition Id="511dd19a-d3ad-4ecd-a7dc-0693a8430bbb" />
+                </propertyInstance>
+                <elementDefinition Id="302cdda0-28da-4d1d-849e-0f10a7a8fff4" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="fc825ac3-316f-4ccb-832e-b4a150200bb8">
+                <propertyInstance Id="d735a1b5-d7c7-489f-ad4f-20c96ab1098f" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="c9279494-ccfd-4e2b-a620-8264168b95a4" />
+                </propertyInstance>
+                <elementDefinition Id="a9534ee5-27fe-4c45-9c70-c225135e00c7" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="2ff6f8c4-83c8-4345-b114-78a5e9edeeb9" />
+        <ownedOperationsInternal>
+          <operation Id="08250fed-af44-49de-a2c3-2252ab341b85" name="Draw" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="3c8e60a2-01ec-4002-9897-5b95808bf14e" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Glyph Member=Draw" tag="ViewCode">
+                <elementDefinition Id="32789db1-f70e-4cf5-a710-cd585766daae" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="6b0c9894-ee8d-48fb-a0ba-71be85715199" name="method" profile="CSharpProfile">
+                <elementDefinition Id="8f4b887a-a497-4769-aaf7-9a7ea1207880" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9a2e287c-6a64-4b16-922f-74e607149169">
+                    <propertyInstance Id="36fc9c25-c54a-461c-877f-0f2799fb7086" name="ClrAttributes">
+                      <elementDefinition Id="7c8dbacb-dfae-4028-a6a3-1495ce868061" />
+                    </propertyInstance>
+                    <elementDefinition Id="94b011d1-ffd8-484d-863d-588330dca8cd" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="175ad8b2-fb6a-48ec-890b-0faf83224de7">
+                    <propertyInstance Id="ea9288f6-1625-466a-aaba-9360789d8c73" name="IsPartial" value="false">
+                      <elementDefinition Id="f1f7be45-bf43-4385-a5ad-0187c3c4e2b4" />
+                    </propertyInstance>
+                    <elementDefinition Id="8dec8134-6564-46d0-b69a-0ed778c6548c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7335ed61-8ca6-4825-b870-13f0b0f90909">
+                    <propertyInstance Id="b4fd17b0-075a-4183-b6a7-f0a311583c95" name="IsUnsafe" value="false">
+                      <elementDefinition Id="e38605ed-0385-49ce-9a54-ddc35435efe2" />
+                    </propertyInstance>
+                    <elementDefinition Id="a2fdbc2c-b70b-4bb0-977f-a614fc3ece53" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="18b030a6-d758-4ea2-aae1-4ff288672c3e">
+                    <propertyInstance Id="2ce57545-61cb-405d-a42e-c2994693d5f6" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="df803db6-cd85-4987-9091-10dfdc40e2d7" />
+                    </propertyInstance>
+                    <elementDefinition Id="d7c2df5b-82de-485f-8ac9-54a24e29f638" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="95b4f638-cd9c-493d-8962-6d70552e4363">
+                    <propertyInstance Id="d264f312-8f6a-4385-b15f-83f909e27528" name="params" value="false">
+                      <elementDefinition Id="cc74d942-7e52-4782-ad84-b2e55d8cbdf6" />
+                    </propertyInstance>
+                    <elementDefinition Id="5a777506-6820-4660-97c0-b40a1b837984" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="86d63ff2-ab4c-49d9-8535-f31f1e340570" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="18b673a1-c887-4dfb-b46b-273ded3b8543" direction="Return">
+                  <elementDefinition Id="32bc8c49-cecd-4ed1-b86f-379940ba0e78" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7bada574-045d-4f18-8214-4f1909e6890b" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="aef7117f-c53e-444e-8b3e-6c9968da67ad" name="Insert" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="4aef20d6-0a7c-46ad-9c2a-4079e233a174" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Glyph Member=(Name=Insert OverloadingParameters=[(Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Glyph)])" tag="ViewCode">
+                <elementDefinition Id="9d1e6ca8-566f-4bca-abec-64ce0e3b9725" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="10273218-dc6a-4e4f-98e2-36cc8bc840ff" name="method" profile="CSharpProfile">
+                <elementDefinition Id="f0d902b0-5e6a-4fbe-acab-41c53a661cad" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="22692262-46e3-4d18-ab96-a69012935ed7">
+                    <propertyInstance Id="31817526-ce7b-46f6-b547-6e89b19ed119" name="ClrAttributes">
+                      <elementDefinition Id="5c35fd64-125f-4aa2-b496-80882f55e001" />
+                    </propertyInstance>
+                    <elementDefinition Id="225fea93-8039-4a61-aa8f-ba4bc2863a8a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fa47dae7-5714-47a6-8519-50a3534b64f4">
+                    <propertyInstance Id="b9541861-c46a-48a2-83b3-17582efae276" name="IsPartial" value="false">
+                      <elementDefinition Id="4eb3b55e-51e1-4868-8933-7544cb51d674" />
+                    </propertyInstance>
+                    <elementDefinition Id="973a5461-8272-47b9-a217-67fa1658602a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a385a045-28f8-4320-bde1-fb0c0c4a9a3d">
+                    <propertyInstance Id="f8be69ca-a083-408e-9fec-f28bc2c4e441" name="IsUnsafe" value="false">
+                      <elementDefinition Id="56462fbf-98d2-4075-bc37-8270f18aa363" />
+                    </propertyInstance>
+                    <elementDefinition Id="2486c31a-8be3-4616-be2d-1399de46e11c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e1143326-42c1-44ff-8391-12dfa943094e">
+                    <propertyInstance Id="a74b1ccf-0e29-4c04-9b0c-6876f34e9aba" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="6876e5a9-99c9-4765-82c1-b33e7d607e6f" />
+                    </propertyInstance>
+                    <elementDefinition Id="5ca4cb73-f31e-41ba-92c7-15e88ea4305a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="52d9eef8-321b-456a-97ff-c70c56267257">
+                    <propertyInstance Id="4bc3a7a8-b05a-471f-a152-da4c7ea0afb7" name="params" value="false">
+                      <elementDefinition Id="e559b3aa-e95f-4a97-a535-c78e979911ca" />
+                    </propertyInstance>
+                    <elementDefinition Id="1cb64233-73c2-4ceb-ad89-f96320b3354e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="9892e893-1fc2-42dd-95c8-566033df9cd9" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="bbc1e6fa-9ae6-4de5-b5ab-62bb67229e52" name="glyph" direction="In">
+                  <referencesInternal>
+                    <reference Id="221a9e2e-4481-44cf-97fa-ef94bc18618b" handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Glyph Member=(Name=Insert OverloadingParameters=[(Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Glyph)]) ParameterIdentifier=glyph" tag="ViewCode">
+                      <elementDefinition Id="ba6a5115-6af8-43c0-81f2-796f992f23e0" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="74c8f0b7-2900-4578-b639-acb00f41ff0c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5e35fb58-cb27-41d1-94b5-b31ecc88d0e3" LastKnownName="Glyph" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="80398862-4baf-4add-bb82-66c3c74fd2e6" name="Glyph" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="43cb21dd-d42c-48c4-a33a-818f549e7d0c" handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application Type=Glyph Member=.ctor" tag="ViewCode">
+                <elementDefinition Id="1fd955f6-b861-493c-8afe-feae0eb6f655" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="1990b540-ed38-4732-ab7b-e9a3472bf259" name="method" profile="CSharpProfile">
+                <elementDefinition Id="69fc9dfb-1138-4c48-b736-446f5ea4ce8e" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="cb2a07f5-a2fd-4648-867d-dbd1da4ece33">
+                    <propertyInstance Id="9e230d84-13c0-4404-8bb9-8df6beab36d1" name="ClrAttributes">
+                      <elementDefinition Id="a9067c36-d01e-4864-aa73-1872dd21467d" />
+                    </propertyInstance>
+                    <elementDefinition Id="1aea6fd1-4799-4a83-a0fe-01dabe340e96" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1e612e33-9550-4a1f-9fcb-0e56483d1ee9">
+                    <propertyInstance Id="235df8ee-d22b-4132-b3ad-34333e60a743" name="IsPartial" value="false">
+                      <elementDefinition Id="56b5fbc4-f80a-464f-8198-0a6cfa85a899" />
+                    </propertyInstance>
+                    <elementDefinition Id="9897e302-281b-4fe7-b170-ec9a8b3880b1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="269a24f5-3249-4f9c-8be8-5baee9cc7c42">
+                    <propertyInstance Id="7e090b18-308d-46a2-80f2-6683162c4162" name="IsUnsafe" value="false">
+                      <elementDefinition Id="5491beff-bfe9-49f5-8f16-caa73838f6d1" />
+                    </propertyInstance>
+                    <elementDefinition Id="803fd3f4-73c1-4391-9270-ab2a103c3a4e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="aae9808e-0b08-421a-8ef5-8e42fdeee8fa">
+                    <propertyInstance Id="093661c0-c36b-49b4-aa89-1919743979b6" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="f7cf1daa-2fa7-42ec-af16-0ec550d95835" />
+                    </propertyInstance>
+                    <elementDefinition Id="78166491-5e49-4ac5-998b-d88cc48d67bc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8fe62a55-7ed4-4807-9aeb-6dd8554455ce">
+                    <propertyInstance Id="1fceb039-4ba8-4940-9905-eafb4acc758a" name="params" value="false">
+                      <elementDefinition Id="a058442c-73ec-4404-9967-93b12e89ad9f" />
+                    </propertyInstance>
+                    <elementDefinition Id="a6ae240b-4556-44db-96d9-c5c9126cea4d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="c29b3641-29bc-454d-9b8d-fea386463753" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="0cc71464-8764-4afd-8364-9fc0343b3406" name="ModelingProject">
+    <elementDefinition Id="0d51bcde-9d68-4014-9070-4cde448ae83b" />
+  </package>
+</logicalClassDesignerModel>
