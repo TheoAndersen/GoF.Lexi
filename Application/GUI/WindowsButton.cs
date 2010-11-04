@@ -7,9 +7,9 @@ namespace GoF.Lexi.Application.GUI
 {
     public class WindowsButton : Button
     {
-        public override string Draw()
+        public override void Draw(Window window)
         {
-            return "WindowsButton";
+            window.DrawText("WindowsButton");
         }
     }
 }

@@ -4,20 +4,29 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using GoF.Lexi.Application;
+using GoF.Lexi.Application.GUI;
 
 namespace GoF.Lexi.Test
 {
     [TestClass]
     public class CompositeTest
     {
+        private Window window;
+
+        [TestInitialize]
+        public void TestInitialize()
+        {
+            window = new Window();
+        }
+
         [TestMethod]
         public void Create_A_Single_Rectangle()
         {
-            Rectangle rectangle = new Rectangle();
+            Glyph rectangle = new Rectangle();
             
-            string result = rectangle.Draw();
+            rectangle.Draw(window);
 
-            Assert.AreEqual("Rectangle", result);
+            Assert.AreEqual("Rectangle", window.DrawnText);
         }
 
         [TestMethod]
@@ -28,9 +37,9 @@ namespace GoF.Lexi.Test
             row.Insert(new Rectangle());
             row.Insert(new Rectangle());
 
-            string result = row.Draw();
+            row.Draw(window);
 
-            Assert.AreEqual("Rectangle, Rectangle", result);
+            Assert.AreEqual("Rectangle, Rectangle", window.DrawnText);
         }
 
         [TestMethod]
@@ -41,9 +50,9 @@ namespace GoF.Lexi.Test
             row.Insert(new Rectangle());
             row.Insert(new Circle());
 
-            string result = row.Draw();
+            row.Draw(window);
 
-            Assert.AreEqual("Rectangle, Circle", result);
+            Assert.AreEqual("Rectangle, Circle", window.DrawnText);
         }
     }
 }

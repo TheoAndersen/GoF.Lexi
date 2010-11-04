@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using GoF.Lexi.Application;
+using GoF.Lexi.Application.GUI;
 
 namespace GoF.Lexi.Test
 {
@@ -14,10 +15,11 @@ namespace GoF.Lexi.Test
         public void Rectangle_Decorated_With_CurlyBrackets()
         {
             Glyph row = new CurlyBracketsDecorator(new Rectangle());
+            Window window = new Window();
+            
+            row.Draw(window);
 
-            string result = row.Draw();
-
-            Assert.AreEqual("{Rectangle}", result);
+            Assert.AreEqual("{Rectangle}", window.DrawnText);
         }
     }
 }

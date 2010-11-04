@@ -2,14 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using GoF.Lexi.Application.GUI;
 
 namespace GoF.Lexi.Application
 {
     public class SpacesStrategy : Strategy
     {
-        public string Compose(string input)
+        public void Compose(Glyph item, Window window)
         {
-            return "(" + input + ")";
+            window.DrawText("(");
+            item.Draw(window);
+            window.DrawText(")");
         }
     }
 }

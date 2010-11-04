@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using GoF.Lexi.Application.GUI;
 
 namespace GoF.Lexi.Application
 {
@@ -14,9 +15,9 @@ namespace GoF.Lexi.Application
             this.component = component;
         }
 
-        public override string Draw()
+        public override void Draw(Window window)
         {
-            return component.Draw();
+            component.Draw(window);
         }
     }
 }

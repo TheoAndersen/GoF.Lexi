@@ -19,14 +19,22 @@ namespace GoF.Lexi.Test
          *   without depending directly on them
          */
 
+        private Window window;
+
+        [TestInitialize]
+        public void TestInitialize()
+        {
+            window = new Window();
+        }
+
         [TestMethod]
         public void Use_A_MacFactory_To_Create_A_Button()
         {
             GUIFactory factory = new MacFactory();
 
-            string result = factory.CreateButton().Draw();
+            factory.CreateButton().Draw(window);
 
-            Assert.AreEqual("MacButton", result);
+            Assert.AreEqual("MacButton", window.DrawnText);
         }
 
         [TestMethod]
@@ -34,9 +42,9 @@ namespace GoF.Lexi.Test
         {
             GUIFactory factory = new WindowsFactory();
 
-            string result = factory.CreateButton().Draw();
+            factory.CreateButton().Draw(window);
 
-            Assert.AreEqual("WindowsButton", result);
+            Assert.AreEqual("WindowsButton", window.DrawnText);
         }
     }
 }

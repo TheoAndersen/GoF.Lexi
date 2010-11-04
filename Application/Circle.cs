@@ -2,14 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using GoF.Lexi.Application.GUI;
 
 namespace GoF.Lexi.Application
 {
     public class Circle : Glyph
     {
-        public override string Draw()
+        public override void Draw(Window window)
         {
-            return "Circle";
+            window.DrawText("Circle"); ;
         }
     }
 }

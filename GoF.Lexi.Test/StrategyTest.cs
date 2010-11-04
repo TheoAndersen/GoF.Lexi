@@ -4,12 +4,22 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using GoF.Lexi.Application;
+using GoF.Lexi.Application.GUI;
 
 namespace GoF.Lexi.Test
 {
     [TestClass]
     public class StrategyTest
     {
+        private Window window;
+
+        [TestInitialize]
+        public void TestInitialize()
+        {
+            window = new Window();
+        }
+
+
         [TestMethod]
         public void Draw_Row_With_Two_Rectangles_With_SpacesStrategy()
         {
@@ -18,9 +28,9 @@ namespace GoF.Lexi.Test
             row.Insert(new Rectangle());
             row.Insert(new Rectangle());
 
-            string result = row.Draw();
+            row.Draw(window);
 
-            Assert.AreEqual("(Rectangle), (Rectangle)", result);
+            Assert.AreEqual("(Rectangle), (Rectangle)", window.DrawnText);
         }
 
         [TestMethod]
@@ -31,9 +41,9 @@ namespace GoF.Lexi.Test
             row.Insert(new Rectangle());
             row.Insert(new Rectangle());
 
-            string result = row.Draw();
+            row.Draw(window);
 
-            Assert.AreEqual("[Rectangle], [Rectangle]", result);
+            Assert.AreEqual("[Rectangle], [Rectangle]", window.DrawnText);
         }
 
         [TestMethod]
@@ -44,13 +54,13 @@ namespace GoF.Lexi.Test
             row.Insert(new Circle());
             row.Insert(new Rectangle());
 
-            string result = row.Draw();
+            row.Draw(window);
 
             row.strategy = new SquareBracketsStrategy();
 
-            result += ", " + row.Draw();
+            row.Draw(window);
 
-            Assert.AreEqual("(Circle), (Rectangle), [Circle], [Rectangle]", result);
+            Assert.AreEqual("(Circle), (Rectangle)[Circle], [Rectangle]", window.DrawnText);
         }
     }
 }
