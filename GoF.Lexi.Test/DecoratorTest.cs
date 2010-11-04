@@ -15,7 +15,7 @@ namespace GoF.Lexi.Test
         public void Rectangle_Decorated_With_CurlyBrackets()
         {
             Glyph row = new CurlyBracketsDecorator(new Rectangle());
-            Window window = new Window();
+            Window window = new TextWindow(new SimpleTextWindowImp());
             
             row.Draw(window);
 

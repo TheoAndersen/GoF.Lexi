@@ -41,13 +41,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GUI\Button.cs" />
+    <Compile Include="GUI\Class1.cs" />
     <Compile Include="GUI\GUIFactory.cs" />
     <Compile Include="Circle.cs" />
     <Compile Include="CurlyBracketsDecorator.cs" />
     <Compile Include="Decorator.cs" />
     <Compile Include="Glyph.cs" />
     <Compile Include="GUI\MacButton.cs" />
+    <Compile Include="GUI\SimpleTextWindowImp.cs" />
+    <Compile Include="GUI\TextWindow.cs" />
     <Compile Include="GUI\Window.cs" />
+    <Compile Include="GUI\WindowImp.cs" />
     <Compile Include="GUI\WindowsButton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rectangle.cs" />

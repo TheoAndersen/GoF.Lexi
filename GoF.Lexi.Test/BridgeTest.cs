@@ -9,6 +9,11 @@ namespace GoF.Lexi.Test
     [TestClass]
     public class BridgeTest
     {
+        /*
+         *  Actually the bridge is used in all the other previous tests as well...
+         * 
+         * 
+         */
         [TestMethod]
         public void Using_A_Bridge_Test()
         {

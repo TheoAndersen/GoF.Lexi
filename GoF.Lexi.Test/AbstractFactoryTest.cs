@@ -24,7 +24,7 @@ namespace GoF.Lexi.Test
         [TestInitialize]
         public void TestInitialize()
         {
-            window = new Window();
+            window = new TextWindow(new SimpleTextWindowImp());
         }
 
         [TestMethod]

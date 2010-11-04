@@ -5,28 +5,17 @@ using System.Text;
 
 namespace GoF.Lexi.Application.GUI
 {
-    public class Window
+    public abstract class Window
     {
-        StringBuilder drawnText;
+        protected WindowImp windowImplementation;
 
-        public string DrawnText 
-        { 
-            get
-            {
-                return drawnText.ToString();
-            }
-        }
-
-        public Window ()
-	    {
-            drawnText = new StringBuilder();
-	    }
-
-        public void DrawText(string input)
+        public Window(WindowImp windowImplementation)
         {
-            drawnText.Append(input);
+            this.windowImplementation = windowImplementation;
         }
 
-        
+        public abstract string DrawnText { get; }
+
+        public abstract void DrawText(string text);
     }
 }
