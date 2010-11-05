@@ -1,0 +1,710 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="15b7f42e-4f20-4f5e-abd4-a9b7d5f19919"
+  name="Commands"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="0c15e882-d497-482f-90ce-6dae36d062cb"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=GoF.Lexi.Application.Commands"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="98e9e1dc-8ff5-4cf6-acec-2bcd51373902"
+        name="ClickCommand"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5ac3c4cd-8ccf-4821-bd2d-ac9224cb0531"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Anderthe/Documents/Visual Studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application.Commands Type=ClickCommand"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="692ffe21-50ee-4b7b-b7af-b4c37a18bf17"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d6d547a9-9657-443d-890f-9ce5729e1636">
+                <propertyInstance
+                  Id="35ede65c-ca35-442a-9de1-c52ec1fa48cd"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c1b68620-7df6-4dad-8712-7fe86f9b2980">
+                <propertyInstance
+                  Id="c14180a0-37cc-4a0c-9d8d-255fba403a82"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6934bd14-6757-466f-a70c-d08b8c1d8384">
+                <propertyInstance
+                  Id="6db6319e-83c6-42cb-baac-7ec288fee493"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c5afb337-3f53-4adb-8b76-a1cc63783715">
+                <propertyInstance
+                  Id="703a119e-7768-480a-a745-bd25da7a5159"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a1c5886c-6f7e-4a55-8ccb-494a0bd89f24">
+                <propertyInstance
+                  Id="102cdcba-63fd-4aea-b435-d15dafa4b1b8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="36fb51dc-f9a1-4941-8f19-bccd551cc892"
+            isSubstitutable="false">
+            <classMoniker
+              Id="c1fda41e-dd16-450a-a84c-01964e0880f9"
+              LastKnownName="Command"
+              LastKnownLocation="Package_1346.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="23039248-a080-4a48-8f9c-c614aa9c086f"
+            name="window"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0f90c0bb-7800-40de-a36b-0547897bf65e"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Anderthe/Documents/Visual Studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application.Commands Type=ClickCommand Member=window"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a2ff7a5d-efa5-4634-8e16-2ac494fb5bb6"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62ff359f-2963-4d88-8424-36c4fb364f01">
+                    <propertyInstance
+                      Id="55100638-5f2d-4c86-95a6-18e2c3ce3821"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4bf5d57-0ac7-499e-b6e4-2e39068be569">
+                    <propertyInstance
+                      Id="ba36f5c9-28d4-4a4c-b43e-5a309845194c"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46ec0e7c-0dd8-4732-ace4-d9798a1bf73e">
+                    <propertyInstance
+                      Id="417b8497-f56b-478d-8eaa-2421cb342f59"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0fe8b127-c1a4-489c-a7d5-6ea8fc30f231">
+                    <propertyInstance
+                      Id="37cdfc0d-2319-4f4e-871d-1f96bc57b18a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92a215e0-c3e8-47c5-9195-b029442e4f10">
+                    <propertyInstance
+                      Id="d1325d98-04ab-44e8-80b7-9e1b479a72c4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="2027bc43-90ab-482b-80ae-5c5fdc8e3e55"
+                LastKnownName="Window"
+                LastKnownLocation="Package_0939.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="a2a21cb3-a96a-443b-9fa9-acf98c936ccd"
+            name="ClickCommand"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ca5a7c8c-b9a2-479b-9663-39b81b60f567"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Anderthe/Documents/Visual Studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application.Commands Type=ClickCommand Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Anderthe/Documents/Visual Studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application.GUI Type=Window)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0418c1b2-2af0-4039-b65a-0590c867cdbd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2cc42431-b63b-4ac6-8ca4-e7249f5820f4">
+                    <propertyInstance
+                      Id="e0dfe408-84de-45d8-a61e-0693b670d544"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59dcb28c-78b0-4729-937f-a07ba7c4dea4">
+                    <propertyInstance
+                      Id="0d1b210a-bf0c-479e-b85f-9486ef6b3128"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e609eac-9cdd-4e88-9f3b-2b1376f89dc9">
+                    <propertyInstance
+                      Id="85825688-a407-4d79-8ce8-62c91c130db4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e2abe96-a63f-45ea-85d2-eb23fec0b777">
+                    <propertyInstance
+                      Id="9f2a2cf2-4b24-43ee-adb8-7b06330d2890"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="efbbca57-703b-4dfb-a101-09daadb6829d">
+                    <propertyInstance
+                      Id="56d3c775-7823-478d-8925-a7d357c1cd0d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e8837bd5-309a-408b-8acc-d451b9a2cfd9"
+                  name="window"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5b4dcfbe-136c-4cb7-83af-7bd58846a3ac"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Anderthe/Documents/Visual Studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application.Commands Type=ClickCommand Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Anderthe/Documents/Visual Studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application.GUI Type=Window)]) ParameterIdentifier=window"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2027bc43-90ab-482b-80ae-5c5fdc8e3e55"
+                      LastKnownName="Window"
+                      LastKnownLocation="Package_0939.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2299fd85-68b5-4c42-ae55-cbf4412d1735"
+            name="Execute"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="11b024e9-b43b-4326-a7d7-bf28f84a433a"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Anderthe/Documents/Visual Studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application.Commands Type=ClickCommand Member=Execute"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="77d89ff3-2864-422e-86b4-c8e3b2caa122"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c779966e-b14c-4ec8-ac41-c23c64a05c09">
+                    <propertyInstance
+                      Id="ef75b252-e245-462f-b001-9cb0f1116cd6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="100fabfb-5e4d-46fc-b0bf-3f8f067f1284">
+                    <propertyInstance
+                      Id="c86c167b-172a-4b4f-9dfb-b4f4e838dc8b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10836f50-2e05-4639-9c51-7acd1c786c14">
+                    <propertyInstance
+                      Id="f2abba7f-42e3-4fa0-ab6e-3949ce288d56"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5d23831-c3f4-455a-ac63-9923c5f1faa4">
+                    <propertyInstance
+                      Id="6131489c-9ba5-44f7-8184-f408abcaab41"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a81a428-9d2c-40b3-b812-20ca432ac75f">
+                    <propertyInstance
+                      Id="1949b540-f476-44d3-ba11-5f4332a477dd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="24c0145c-c144-49b8-b84b-0153ae89748e"
+            name="Unexecute"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b3cb6dd6-0446-4b6f-8e90-c317d6095832"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Anderthe/Documents/Visual Studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application.Commands Type=ClickCommand Member=Unexecute"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="51be1154-dd54-475c-b242-d5f4c106f16d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f6dfa32-bd4c-4665-9a25-7cddf0a15555">
+                    <propertyInstance
+                      Id="29816f41-575d-4674-9378-432ef5d54a76"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6324b8e4-2148-4073-8269-1b5b173d9f27">
+                    <propertyInstance
+                      Id="5c95d0ca-dc2a-43c9-a1b4-6a2a26437095"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a9e6a3e-0d7b-48c7-a32f-12a8d2eb652f">
+                    <propertyInstance
+                      Id="4f2be013-745d-4cdb-9081-27d0e70a890f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50061594-b4f6-49ab-9021-0d409eef4b47">
+                    <propertyInstance
+                      Id="8d34d98e-59d9-47c7-97cd-9b98c357c8a1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab0b2a3d-0eff-4808-badc-e612a7e1adee">
+                    <propertyInstance
+                      Id="2917f7ab-d01c-4650-acac-60b02056748b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c1fda41e-dd16-450a-a84c-01964e0880f9"
+        name="Command"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5bbd8f46-f81d-42e5-a715-502fda399c3e"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Anderthe/Documents/Visual Studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application.Commands Type=Command"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="84fc90c9-88ce-4788-bb63-0e77e9fe24e7"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b21637ec-715c-4fa6-8a12-e17e6b27d673">
+                <propertyInstance
+                  Id="2a1cdccf-ffc4-4ce4-89f6-da9e0e3cff15"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1f42ccd3-366c-4a04-80fd-5810e9e3fafe">
+                <propertyInstance
+                  Id="0b0f0647-4a30-47f2-ab5e-08a05bd65f69"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="93dae6b8-35b5-4c6b-9e7f-2f8d90cb6450">
+                <propertyInstance
+                  Id="782cf97c-ebcb-4cee-8daa-9b2d7dabcc45"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8f98ae4d-04bd-43af-a746-a7f15880faf7">
+                <propertyInstance
+                  Id="d9decf76-8d32-4e87-8e34-7ef5eafd9245"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ccea0e4d-4bcf-45c6-b221-0ea92129cbb6">
+                <propertyInstance
+                  Id="f932785f-4c23-4519-9ea2-7e315adc70f6"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="1053b948-8323-414b-adea-d86bbf22bda2"
+            name="commands"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="6cd5c301-029a-4b67-b99c-22d1c2001130"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Anderthe/Documents/Visual Studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application.Commands Type=Command Member=commands"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e562871c-f2ec-42d3-8592-b9c7970f4f47"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="268cc79d-4eb8-47c7-98be-4e4491f7a6cb">
+                    <propertyInstance
+                      Id="5e668f1f-9a62-4c53-aa01-a265b1b964d3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2bc567a-fbcf-4dfe-944c-674b0fb3051e">
+                    <propertyInstance
+                      Id="8f78907d-1ea2-4580-83ed-ee43094cb905"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="661eff3e-08fc-4560-accb-47d927a30eb4">
+                    <propertyInstance
+                      Id="b0d3c52a-b438-4285-8155-5722683d0889"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6af3988c-8e62-4c03-be35-e575feec2f84">
+                    <propertyInstance
+                      Id="ef005763-d81b-43a3-b1a5-8c2b1cff1000"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60670b2a-4259-4706-8653-471131a950bf">
+                    <propertyInstance
+                      Id="11828cec-bd0a-40b9-9e1b-cd89b1a2d57f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="26968e4b-ebab-49fa-9750-394e774edd27"
+                LastKnownName="List&lt;Command&gt;"
+                LastKnownLocation="Package5_1612.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="cb3e0047-2de9-4cd7-b2a1-c37e8f02294a"
+            name="Execute"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e266545a-5b84-48e0-97fa-abf927a9cb5c"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Anderthe/Documents/Visual Studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application.Commands Type=Command Member=Execute"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cc63124c-cfda-460b-b9a6-7a42ba99f81b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc361669-5b54-47be-902a-3a4aac63c4b8">
+                    <propertyInstance
+                      Id="602d9e06-f742-48b8-bba1-e457047dbfe7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea89604d-7d43-4327-9616-09ccc8b30377">
+                    <propertyInstance
+                      Id="81f2942f-4187-43d1-b77c-3e4c130a3539"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4def51f5-e760-4116-9fa4-96fdc2a374b2">
+                    <propertyInstance
+                      Id="c7db0c1d-86a9-46d6-8d9b-f965f0faba1b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3af93a04-5a37-4f08-8503-d5701a24e5c7">
+                    <propertyInstance
+                      Id="6badfb35-7838-4a85-b8c4-83a315b09e76"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ffcc3dec-bc6f-4442-8abb-38b320e8c47e">
+                    <propertyInstance
+                      Id="21fd5e03-6225-4d41-92b6-dcf52db5853a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="b219f3ef-4399-45ea-b672-45cef2bca9be"
+            name="Undo"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7e671f7b-4eab-4a1b-b639-0b827ca91123"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Anderthe/Documents/Visual Studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application.Commands Type=Command Member=Undo"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="124021db-3197-4fa1-a2e7-f5cfc2e6db85"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ba38e36-eec8-406b-ae1e-0c816c697277">
+                    <propertyInstance
+                      Id="2f03b7ab-5beb-454a-9feb-bc8de294948d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2cab59e-084d-4a1a-b696-88de25662c36">
+                    <propertyInstance
+                      Id="d5c973f6-6525-4be1-859e-6cbf83cb5662"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e37644ad-7154-445b-af9c-be9090187f70">
+                    <propertyInstance
+                      Id="322e8b5e-547a-420c-8537-30f25242f440"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88f92350-ec2e-4489-9d0c-48d2709fb54f">
+                    <propertyInstance
+                      Id="b4db4b79-dde9-420a-9eff-6d492cd4676a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85bccc2e-7f90-4cc8-b5a0-cb29bdd8c62f">
+                    <propertyInstance
+                      Id="afdc7529-f9a0-4e55-abe9-d5b62584db64"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="59f493bc-c7c3-4784-9f8d-aa1dcd719053"
+            name="Unexecute"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c200bfa6-9ff0-4a52-885c-e4496d67451f"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Anderthe/Documents/Visual Studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application.Commands Type=Command Member=Unexecute"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b66630e9-ccd4-44f4-af2b-4875dca5a512"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="992cc3c1-0852-4eec-a7b8-e18623ba54ac">
+                    <propertyInstance
+                      Id="baa075a0-45ee-463d-b9a4-6513dbc7b91a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="708213bc-9599-4915-9842-5af11c0ef052">
+                    <propertyInstance
+                      Id="e27f604d-10f6-4971-96ea-ba02e01ebbda"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ca9ed41-f893-4fed-a9fe-ee39b850b9a5">
+                    <propertyInstance
+                      Id="a3e0573a-4c53-48dc-aa26-0b3589d607a1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="90b25b6a-b208-438d-927c-b613cfac7b7d">
+                    <propertyInstance
+                      Id="f282544b-3fc3-4cca-8a11-18163eb04396"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="25a0221a-cf08-4823-8058-7a50848d5a55">
+                    <propertyInstance
+                      Id="4fdadfde-78e2-46fa-a711-a3d977f1f5e7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="067f430a-cfc1-4c10-b43c-250028c7ceb3"
+            name="Command"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5ff0fef4-5f60-4a44-a6d0-1c11137dde6b"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Anderthe/Documents/Visual Studio 2010/Projects/GoF.Lexi/Application/bin/Debug/GoF.Lexi.Application.dll&quot; Namespace=GoF.Lexi.Application.Commands Type=Command Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="839b2fed-d03d-4c5f-b4b1-92e8d626db4c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b801916-8d50-4798-994f-2d311c4286ba">
+                    <propertyInstance
+                      Id="625a2f7b-2663-47a7-a7f4-3c827b93c867"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5ea190a-5643-403f-bbf2-7866f53ed287">
+                    <propertyInstance
+                      Id="d548cefb-041b-40c7-9303-2bc497b657af"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18f920d7-8e34-4e44-a9c1-ff418e6ed626">
+                    <propertyInstance
+                      Id="0f782552-9a37-4ec2-815d-fc3fe9e29499"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a02230e2-92f8-4504-b6f3-59786ae805f5">
+                    <propertyInstance
+                      Id="d2bd9a63-c4ec-4eae-8de1-4a3b2a26e0ec"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48b1f8f3-9330-4224-b86a-eb4182f0bb2e">
+                    <propertyInstance
+                      Id="b4393dcd-50dd-4b51-8e69-1ecd43b1c39c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

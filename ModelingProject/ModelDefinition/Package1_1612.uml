@@ -17,5 +17,11 @@
         LastKnownName="Application"
         LastKnownLocation="Package2_1612.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="2184d1d3-4ec6-4c41-84b3-a769b03cee59"
+        LastKnownName="Test"
+        LastKnownLocation="Package_1347.uml" />
+    </packageHasNamedElement>
   </packagedElements>
 </package>
