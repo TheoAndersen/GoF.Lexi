@@ -3,6 +3,12 @@
   dslVersion="1.0.0.0"
   Id="0d51bcde-9d68-4014-9070-4cde448ae83b"
   name="ModelingProject" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <ownedCommentsInternal>
+    <comment
+      Id="64505606-286a-4fe8-b943-7c6d4a091fb2">
+      <body>Bridge..</body>
+    </comment>
+  </ownedCommentsInternal>
   <profileInstances>
     <packageHasProfileInstances
       Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">

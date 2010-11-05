@@ -23,5 +23,10 @@ namespace GoF.Lexi.Application.GUI
         {
             savedText.Append(text);
         }
+
+        public void RemoveTextChars(int numberOfChars)
+        {
+            savedText.Remove(savedText.Length - numberOfChars, numberOfChars);
+        }
     }
 }

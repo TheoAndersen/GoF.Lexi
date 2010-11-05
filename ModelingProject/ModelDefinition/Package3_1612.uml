@@ -17,5 +17,11 @@
         LastKnownName="Collections"
         LastKnownLocation="Package4_1612.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="fe5a7f07-ae44-4817-9e24-ab6b0a35048d"
+        LastKnownName="Text"
+        LastKnownLocation="Package_1449.uml" />
+    </packageHasNamedElement>
   </packagedElements>
 </package>

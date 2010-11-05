@@ -32,7 +32,7 @@ namespace GoF.Lexi.Test
         {
             GUIFactory factory = new MacFactory();
 
-            factory.CreateButton().Draw(window);
+            factory.CreateButton(window).Draw(window);
 
             Assert.AreEqual("MacButton", window.DrawnText);
         }
@@ -42,7 +42,7 @@ namespace GoF.Lexi.Test
         {
             GUIFactory factory = new WindowsFactory();
 
-            factory.CreateButton().Draw(window);
+            factory.CreateButton(window).Draw(window);
 
             Assert.AreEqual("WindowsButton", window.DrawnText);
         }

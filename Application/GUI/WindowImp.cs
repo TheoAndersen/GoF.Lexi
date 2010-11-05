@@ -10,5 +10,7 @@ namespace GoF.Lexi.Application.GUI
         string DrawnText { get; }
 
         void DrawText(string text);
+
+        void RemoveTextChars(int numberOfChars);
     }
 }

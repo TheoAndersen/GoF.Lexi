@@ -8,6 +8,6 @@ namespace GoF.Lexi.Application.GUI
 {
     public interface GUIFactory
     {
-        Button CreateButton();
+        Button CreateButton(Window window);
     }
 }

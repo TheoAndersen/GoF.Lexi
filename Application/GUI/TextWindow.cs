@@ -23,5 +23,10 @@ namespace GoF.Lexi.Application.GUI
         {
             base.windowImplementation.DrawText(input);
         }
+
+        public override void RemoveTextChars(int numberOfChars)
+        {
+            base.windowImplementation.RemoveTextChars(numberOfChars);
+        }
     }
 }

@@ -24,5 +24,10 @@ namespace GoF.Lexi.Application.GUI
             savedText.Append(text);
             Console.Write(text);
         }
+
+        public void RemoveTextChars(int numberOfChars)
+        {
+            Console.Write("tried to remove the last: " + numberOfChars + " chars");
+        }
     }
 }

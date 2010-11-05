@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\ClickCommand.cs" />
+    <Compile Include="Commands\Command.cs" />
     <Compile Include="GUI\Button.cs" />
     <Compile Include="GUI\Class1.cs" />
     <Compile Include="GUI\GUIFactory.cs" />
@@ -62,6 +64,7 @@
     <Compile Include="Strategy.cs" />
     <Compile Include="GUI\WindowsFactory.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
